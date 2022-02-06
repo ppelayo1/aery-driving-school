@@ -1,0 +1,74 @@
+/*
+Theme Name: Aery Driving School
+Author: Patrick Pelayo
+Description: The Aery Driving School Website
+Version: 0.0.1
+
+*/
+$whiteColor:#ffffff;
+$orangeRed:#F25A34;
+
+body{
+    margin:0;
+    font-family:'Lato', sans-serif;
+    header{
+        .customize-partial-edit-shortcut-custom_logo{
+            position:relative;
+            left:15%;
+            bottom:0.5em;
+        }
+        margin:8px 8px 0 8px;
+        .custom-logo-link{
+            img{
+                width:50%;
+                height:auto;
+            }
+        }
+        .hamburger-menu{
+            float:right;
+            width:6%;
+        }
+    }
+    
+    main{
+        .heroHeader{
+            width:100vw;
+            height:241px;
+            background-position: center;
+            background-size:cover;
+            text-align: center;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            gap:1.2rem;
+        
+            #hero_anchor{
+                position:relative;
+                right:30%;
+                bottom:40px;
+            }
+
+            .heroPrimaryText{
+                font-size:1.5rem;
+                color:$whiteColor;
+                margin:0 0.5rem 1rem;
+                font-weight:900;
+            }
+
+            .heroSecondaryText{
+                color:$whiteColor;
+                font-weight:900;
+            }
+        }
+    }
+
+    .enrollmentLink{
+        color:#F25A34;
+        font-size:1.5rem;
+        font-weight:900;
+        font-style:italic;
+        text-decoration: none;
+    }
+    
+   
+}

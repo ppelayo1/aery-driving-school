@@ -1,0 +1,23 @@
+{
+  "name": "aery-driving-school",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "start": "./node_modules/.bin/sass --watch style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppelayo1/aery-driving-school.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ppelayo1/aery-driving-school/issues"
+  },
+  "homepage": "https://github.com/ppelayo1/aery-driving-school#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.49.7"
+  }
+}
