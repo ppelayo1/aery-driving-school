@@ -7,11 +7,40 @@ Version: 0.0.1
 */
 $whiteColor:#ffffff;
 $orangeRed:#F25A34;
+$lightBlue:#98D6E8;
+$darkerBlue:#0D5165;
+$transitionBlue: #0A7290;
+$black:#000000;
+$clearBlue:#00C4FD;
+
+$gradiant1:32.74%;
+$gradiant2:39.55%;
+$gradiant3:62.12%;
+$gradiant4:72.41%;
 
 body{
+    h1{
+        font-weight:900;
+        font-size:1.514rem;
+    }
+
+    h2{
+        font-weight:900;
+        font-size:1.23rem;
+    }
+
+    h3{
+        font-weight:700;
+    }
+
+    .white-color{
+        color:$whiteColor;
+    }
+
     margin:0;
     font-family:'Lato', sans-serif;
     header{
+        border-bottom:solid 5px black;
         .customize-partial-edit-shortcut-custom_logo{
             position:relative;
             left:15%;
@@ -32,26 +61,18 @@ body{
     
     main{
         .heroHeader{
-            width:100vw;
             height:241px;
             background-position: center;
             background-size:cover;
-            text-align: center;
-            display:flex;
-            flex-direction: column;
-            justify-content: center;
-            gap:1.2rem;
         
             #hero_anchor{
                 position:relative;
-                right:30%;
-                bottom:40px;
+                left:40%;
             }
 
             .heroPrimaryText{
                 font-size:1.5rem;
                 color:$whiteColor;
-                margin:0 0.5rem 1rem;
                 font-weight:900;
             }
 
@@ -60,15 +81,151 @@ body{
                 font-weight:900;
             }
         }
+
+        .enrollNowWrapper{
+            margin-top:2rem;
+            .enrollImgTxtWrapper{
+                margin-top:1rem;
+                display:flex;
+                .enrollmentTxtWrapper{
+                    margin-left:1rem;
+                    .limitedTimePrice{
+                        color:$orangeRed;
+                    }
+                    .limitedTimeLessons{
+                        margin:0;
+                    }
+                }
+            }
+        }
     }
 
-    .enrollmentLink{
-        color:#F25A34;
-        font-size:1.5rem;
-        font-weight:900;
-        font-style:italic;
-        text-decoration: none;
+    .enrollmentWrapper{
+        .enrollmentLink{
+            color:#F25A34;
+            font-size:1.5rem;
+            font-weight:900;
+            font-style:italic;
+            text-decoration: none;
+        }
     }
-    
-   
+    .enrollmentTopPage{
+        margin-bottom:5rem;
+    }
+
+    .shadeBackground{
+        background:$lightBlue;
+    }
+
+    .disclaimer{
+        list-style: none;
+        font-size:0.5rem;
+        padding:0;
+    }
+
+    .listBox{
+        width:19rem;
+        .bulletList{
+            width:69%;
+            .limitedTime{
+                color:$orangeRed;
+                font-style:italic;
+                font-weight:900;
+            }
+        }
+    }
+
+    .content-box{
+        display:flex;
+        flex-direction:column;
+        justify-content: between;
+        align-items: center;
+
+        .prices{
+            list-style: none;
+            font-weight:300;
+
+            .ageGroup{
+                font-weight:900;
+            }
+        }
+      
+    }
+
+    .content-box-margin-top{
+        margin-top:2rem;
+    }
+
+    .content-box-padding-top{
+        padding-top:2rem;
+    }
+
+    footer{
+        margin-top:6.8rem;
+        background: linear-gradient(180deg, $lightBlue $gradiant1, $darkerBlue $gradiant2, $transitionBlue $gradiant3, $black $gradiant4);
+        border-top:solid 1px black;
+
+        .content-box{
+            margin-top:3rem;
+
+            .phoneWrapper{
+                .phoneContent{
+                    margin-left:2rem;
+                    margin-top:1.6rem;
+                    .phoneImgWrapper{
+                        float:left;
+                        .phoneImg{
+                            width:3rem;
+                        }
+                        .phoneLearnMore{
+                            color:$orangeRed;
+                            font-size:0.875rem;
+                            margin-top:0.6rem;
+                        }
+                    }
+                    .phoneNumber{
+                        list-style:none;
+                        margin-left:3rem;
+
+                        li:first-child{
+                            line-height:0.5;
+                        }
+                        li:nth-child(2){
+                            margin-top:1.3rem;
+                        }
+                    }
+                }
+            }
+
+            .footerLinksWrapper{
+                color:$clearBlue;
+
+                ul{
+                    list-style: none;
+                    padding:0;
+                    margin-right:6rem;
+                    line-height:2;
+                    font-weight:300;
+
+                    a{
+                        text-decoration: none;
+                        color:$clearBlue;
+                    }
+                }
+                &.useful-links{
+                    color:$whiteColor;
+                    a{
+                        color:$whiteColor;
+                    }
+                }
+            }
+        }
+
+        .copyright{
+            color:$whiteColor;
+            font-size:0.5rem;
+            padding-bottom:1rem;
+            margin-left:1rem;
+        }
+    }
 }

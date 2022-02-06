@@ -13,7 +13,7 @@
                 
     <?php do_action('wp_head'); ?>
 </head>
-    <header>
+    <header class="container-fluid pb-2">
         <?php echo getLogo(); ?>
         <img class="hamburger-menu" alt="hamburger-menu" src=<?php echo '"' . get_template_directory_uri() . '/assets/images/hamburger-menu.svg"';?>>
 

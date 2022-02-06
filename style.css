@@ -9,7 +9,22 @@ body {
   margin: 0;
   font-family: "Lato", sans-serif;
 }
+body h1 {
+  font-weight: 900;
+  font-size: 1.514rem;
+}
+body h2 {
+  font-weight: 900;
+  font-size: 1.23rem;
+}
+body h3 {
+  font-weight: 700;
+}
+body .white-color {
+  color: #ffffff;
+}
 body header {
+  border-bottom: solid 5px black;
   margin: 8px 8px 0 8px;
 }
 body header .customize-partial-edit-shortcut-custom_logo {
@@ -26,37 +41,145 @@ body header .hamburger-menu {
   width: 6%;
 }
 body main .heroHeader {
-  width: 100vw;
   height: 241px;
   background-position: center;
   background-size: cover;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1.2rem;
 }
 body main .heroHeader #hero_anchor {
   position: relative;
-  right: 30%;
-  bottom: 40px;
+  left: 40%;
 }
 body main .heroHeader .heroPrimaryText {
   font-size: 1.5rem;
   color: #ffffff;
-  margin: 0 0.5rem 1rem;
   font-weight: 900;
 }
 body main .heroHeader .heroSecondaryText {
   color: #ffffff;
   font-weight: 900;
 }
-body .enrollmentLink {
+body main .enrollNowWrapper {
+  margin-top: 2rem;
+}
+body main .enrollNowWrapper .enrollImgTxtWrapper {
+  margin-top: 1rem;
+  display: flex;
+}
+body main .enrollNowWrapper .enrollImgTxtWrapper .enrollmentTxtWrapper {
+  margin-left: 1rem;
+}
+body main .enrollNowWrapper .enrollImgTxtWrapper .enrollmentTxtWrapper .limitedTimePrice {
+  color: #F25A34;
+}
+body main .enrollNowWrapper .enrollImgTxtWrapper .enrollmentTxtWrapper .limitedTimeLessons {
+  margin: 0;
+}
+body .enrollmentWrapper .enrollmentLink {
   color: #F25A34;
   font-size: 1.5rem;
   font-weight: 900;
   font-style: italic;
   text-decoration: none;
+}
+body .enrollmentTopPage {
+  margin-bottom: 5rem;
+}
+body .shadeBackground {
+  background: #98D6E8;
+}
+body .disclaimer {
+  list-style: none;
+  font-size: 0.5rem;
+  padding: 0;
+}
+body .listBox {
+  width: 19rem;
+}
+body .listBox .bulletList {
+  width: 69%;
+}
+body .listBox .bulletList .limitedTime {
+  color: #F25A34;
+  font-style: italic;
+  font-weight: 900;
+}
+body .content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: between;
+  align-items: center;
+}
+body .content-box .prices {
+  list-style: none;
+  font-weight: 300;
+}
+body .content-box .prices .ageGroup {
+  font-weight: 900;
+}
+body .content-box-margin-top {
+  margin-top: 2rem;
+}
+body .content-box-padding-top {
+  padding-top: 2rem;
+}
+body footer {
+  margin-top: 6.8rem;
+  background: linear-gradient(180deg, #98D6E8 32.74%, #0D5165 39.55%, #0A7290 62.12%, #000000 72.41%);
+  border-top: solid 1px black;
+}
+body footer .content-box {
+  margin-top: 3rem;
+}
+body footer .content-box .phoneWrapper .phoneContent {
+  margin-left: 2rem;
+  margin-top: 1.6rem;
+}
+body footer .content-box .phoneWrapper .phoneContent .phoneImgWrapper {
+  float: left;
+}
+body footer .content-box .phoneWrapper .phoneContent .phoneImgWrapper .phoneImg {
+  width: 3rem;
+}
+body footer .content-box .phoneWrapper .phoneContent .phoneImgWrapper .phoneLearnMore {
+  color: #F25A34;
+  font-size: 0.875rem;
+  margin-top: 0.6rem;
+}
+body footer .content-box .phoneWrapper .phoneContent .phoneNumber {
+  list-style: none;
+  margin-left: 3rem;
+}
+body footer .content-box .phoneWrapper .phoneContent .phoneNumber li:first-child {
+  line-height: 0.5;
+}
+body footer .content-box .phoneWrapper .phoneContent .phoneNumber li:nth-child(2) {
+  margin-top: 1.3rem;
+}
+body footer .content-box .footerLinksWrapper {
+  color: #00C4FD;
+}
+body footer .content-box .footerLinksWrapper ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 6rem;
+  line-height: 2;
+  font-weight: 300;
+}
+body footer .content-box .footerLinksWrapper ul a {
+  text-decoration: none;
+  color: #00C4FD;
+}
+body footer .content-box .footerLinksWrapper.useful-links {
+  color: #ffffff;
+}
+body footer .content-box .footerLinksWrapper.useful-links a {
+  color: #ffffff;
+}
+body footer .copyright {
+  color: #ffffff;
+  font-size: 0.5rem;
+  padding-bottom: 1rem;
+  margin-left: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
