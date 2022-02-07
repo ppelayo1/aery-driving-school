@@ -39,18 +39,18 @@
                 </div>
     </div>
 
-    <div class="content-box shadeBackground content-box-padding-top">
+    <div class="content-box shadeBackground content-box-padding-top pb-5">
         <h2 class='text-center'>Our Prices</h2>
         <ul class="disclaimer">
             <li>*We do not serve rural areas.</li>
             <li>*If applicable.</li>
             <li>**Single lesson and/or car rental</br> must be paid in cash(zillow,paypall).</li>
         </ul>
-        <div class='ms-5'>
-            <div>
+        <div class='priceContainer'>
+            <div class='mt-3'>
                 <h3>Behind The Wheel</h3>
                 <div class='d-flex'>
-                    <div class="d-flex gap-5">
+                    <div class="d-flex">
                         <ul class="list-unstyled">
                             <li>Three 2-Hour Lessons:</li>
                             <li class='mt-5'>One 2-Hour Lesson:</li>
@@ -65,14 +65,50 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class='mt-3'>
                 <h3>Teen Online Driver Education</h3>
-                <div>
-                    <p>30-hour home study DMV Certificate of Completion(not included).  </p>
-                    <p class='prices'>$49</p>
+                <div class='d-flex'>
+                    <p class='w-50'>30-hour home study DMV Certificate of Completion(not included).  </p>
+                    <p class='prices bottom-price align-self-center'>$49</p>
+                </div>
+            </div>
+            <div class='mt-3'>
+                <h3>Car Rental</h3>
+                <div class='d-flex'>
+                    <p class='w-50'>Pick up and Drop off for the DMV Test </p>
+                    <p class='prices bottom-price align-self-center'>$150</p>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class='container mt-5'>
+        <div class='d-flex flex-column align-items-center'>
+            <h2>Start Your First Mile Today</h2>
+            <img class='mt-4 w-75' src=<?php echo '"' . get_template_directory_uri() . '/assets/images/carDrivingAway.jpg' . '"'; ?>>
+        </div>
+
+        <div class='d-flex flex-column align-items-center mt-5'>
+            <h3>Our Behind-The-Wheel Process</h3>
+            <ul class="disclaimer behind-the-wheel-disclaimer">
+                <li>*If it's and eligible location.</li>
+                <li>**Weekends are a courtesy schedule.</li>
+                <li>***If he/she is eligible.</li>
+            </ul>
+
+            <div>
+            <ol>
+                <li>Have your permit.</li>
+                <li>Call to set up your first driving lesson.</li>
+                <li>Pay the same day you book your lesson.</li>
+                <li>We will pick you up and return you.</li>
+                <li>Lessons will focus on areas that you need improvement.</li>
+                <li>Next lesson can be scheduled as soon as the next day, and we offer 7 days a week 7am-7pm.*</li>
+                <li>If student is a minor the DMV 6 Hour Certificate of Completion will be issued after the completion of the 3rd driving lesson.****</li>
+            </ol>
+            </div>
+        </div>
+
     </div>
 
 </main>

@@ -21,16 +21,17 @@ $gradiant4:72.41%;
 body{
     h1{
         font-weight:900;
-        font-size:1.514rem;
+        font-size:2rem;
     }
 
     h2{
         font-weight:900;
-        font-size:1.23rem;
+        font-size:1.7rem;
     }
 
     h3{
-        font-weight:700;
+        font-weight:900;
+        font-size:1.3rem;
     }
 
     .white-color{
@@ -98,6 +99,14 @@ body{
                 }
             }
         }
+
+        .priceContainer{
+            width:19rem;
+
+            .bottom-price{
+                margin-left:2.4rem;
+            }
+        }
     }
 
     .enrollmentWrapper{
@@ -121,6 +130,10 @@ body{
         list-style: none;
         font-size:0.5rem;
         padding:0;
+    }
+
+    .behind-the-wheel-disclaimer{
+        margin-right:10rem;
     }
 
     .listBox{

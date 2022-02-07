@@ -11,14 +11,15 @@ body {
 }
 body h1 {
   font-weight: 900;
-  font-size: 1.514rem;
+  font-size: 2rem;
 }
 body h2 {
   font-weight: 900;
-  font-size: 1.23rem;
+  font-size: 1.7rem;
 }
 body h3 {
-  font-weight: 700;
+  font-weight: 900;
+  font-size: 1.3rem;
 }
 body .white-color {
   color: #ffffff;
@@ -74,6 +75,12 @@ body main .enrollNowWrapper .enrollImgTxtWrapper .enrollmentTxtWrapper .limitedT
 body main .enrollNowWrapper .enrollImgTxtWrapper .enrollmentTxtWrapper .limitedTimeLessons {
   margin: 0;
 }
+body main .priceContainer {
+  width: 19rem;
+}
+body main .priceContainer .bottom-price {
+  margin-left: 2.4rem;
+}
 body .enrollmentWrapper .enrollmentLink {
   color: #F25A34;
   font-size: 1.5rem;
@@ -91,6 +98,9 @@ body .disclaimer {
   list-style: none;
   font-size: 0.5rem;
   padding: 0;
+}
+body .behind-the-wheel-disclaimer {
+  margin-right: 10rem;
 }
 body .listBox {
   width: 19rem;

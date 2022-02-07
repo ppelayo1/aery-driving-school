@@ -2,7 +2,7 @@
     <footer class="container-fluid">
         <div class="content-box d-flex align-items-center flex-column">
             <div class='phoneWrapper'>
-                <h2>Schedule Your First Driving Lesson </h2>
+                <h3>Schedule Your First Driving Lesson </h3>
                 <div class='phoneContent'>
                     <div class="phoneImgWrapper">
                         <img class="phoneImg" src=<?php echo '"' . get_template_directory_uri() . '/assets/images/phone-call.svg' . '"'; ?> alt="phone">
@@ -17,7 +17,7 @@
         </div>
         <div class="content-box">
             <div class='footerLinksWrapper d-flex align-items-center flex-column'>
-                <h2>Site Map </h2>
+                <h3>Site Map </h3>
                 <?php wp_nav_menu( array( 'theme_location' => $GLOBALS['footerMenu'], 'container_class' => 'mapList' ) );?>
             </div>
         </div>
@@ -25,7 +25,7 @@
         <?php if(has_nav_menu($GLOBALS['footerUsefulLinks'])):?>
             <div class="content-box">
                 <div class='footerLinksWrapper useful-links d-flex align-items-center flex-column'>
-                    <h2>Useful Links </h2>
+                    <h3>Useful Links </h3>
                     <?php wp_nav_menu( array( 'theme_location' => $GLOBALS['footerUsefulLinks'], 'container_class' => 'externalList' ) );?>
                 </div>
             </div>
