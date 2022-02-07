@@ -15,20 +15,25 @@
                 </div>
             </div>
         </div>
-        <div class="margin-top-3rem clear-blue-color container">
-            <div class='d-flex align-items-center flex-column'>
-                <h3>Site Map </h3>
-                <?php wp_nav_menu( array( 'theme_location' => $GLOBALS['footerMenu'], 'menu_class' => 'line-height-2 list-unstyled font-weight-300 clear-blue-child-anchor width-11rem' ) );?>
-            </div>
-        </div>
-
-        <?php if(has_nav_menu($GLOBALS['footerUsefulLinks'])):?>
-            <div class="margin-top-3rem white-color container">
+        <div class='row'>
+            <div class="col-md margin-top-3rem clear-blue-color">
                 <div class='d-flex align-items-center flex-column'>
-                    <h3>Useful Links </h3>
-                    <?php wp_nav_menu( array( 'theme_location' => $GLOBALS['footerUsefulLinks'], 'menu_class' => 'line-height-2 list-unstyled font-weight-300 white-child-anchor width-11rem' ) );?>
+                    <h3>Site Map </h3>
+                    <?php wp_nav_menu( array( 'theme_location' => $GLOBALS['footerMenu'], 'menu_class' => 'line-height-2 list-unstyled font-weight-300 clear-blue-child-anchor width-11rem child-anchor' ) );?>
                 </div>
             </div>
+        
+
+        <?php if(has_nav_menu($GLOBALS['footerUsefulLinks'])):?>
+            
+            <div class="col-md margin-top-3rem white-color">
+                <div class='d-flex align-items-center flex-column'>
+                    <h3>Useful Links </h3>
+                    <?php wp_nav_menu( array( 'theme_location' => $GLOBALS['footerUsefulLinks'], 'menu_class' => 'line-height-2 list-unstyled font-weight-300 white-child-anchor width-11rem child-anchor' ) );?>
+                </div>
+            </div>
+        </div>
+            
         <?php endif ?>
 
         <p class='white-color ms-3 pb-3'>

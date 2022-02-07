@@ -18,6 +18,12 @@ $gradiant2:39.55%;
 $gradiant3:62.12%;
 $gradiant4:72.41%;
 
+$gradiant2_1:40.74%;
+$gradiant2_2:51.55%;
+$gradiant2_3:85.12%;
+$gradiant2_4:94.41%;
+
+$bootstrap-md:768px;
 body{
     margin:0;
     font-family:'Lato', sans-serif;
@@ -152,7 +158,7 @@ body{
     main{
         .heroHeader{
             height:241px;
-            background-position: center;
+            background-position: bottom;
             background-size:cover;
         
             #hero_anchor{
@@ -189,7 +195,17 @@ body{
         margin-top:6.8rem;
         background: linear-gradient(180deg, $lightBlue $gradiant1, $darkerBlue $gradiant2, $transitionBlue $gradiant3, $black $gradiant4);
         border-top:solid 1px black;
+
+        @media only screen and (min-width:$bootstrap-md){
+            background: linear-gradient(180deg, $lightBlue $gradiant2_1, $darkerBlue $gradiant2_2, $transitionBlue $gradiant2_3, $black $gradiant2_4);
+        }
     
+        .child-anchor{
+            a{
+                text-decoration: none;
+            }
+        }
+
         .clear-blue-child-anchor{
             a{
                 color:$clearBlue;

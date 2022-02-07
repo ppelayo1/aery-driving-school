@@ -109,7 +109,7 @@ body header .hamburger-menu {
 }
 body main .heroHeader {
   height: 241px;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
 }
 body main .heroHeader #hero_anchor {
@@ -139,6 +139,14 @@ body footer {
   margin-top: 6.8rem;
   background: linear-gradient(180deg, #98D6E8 32.74%, #0D5165 39.55%, #0A7290 62.12%, #000000 72.41%);
   border-top: solid 1px black;
+}
+@media only screen and (min-width: 768px) {
+  body footer {
+    background: linear-gradient(180deg, #98D6E8 40.74%, #0D5165 51.55%, #0A7290 85.12%, #000000 94.41%);
+  }
+}
+body footer .child-anchor a {
+  text-decoration: none;
 }
 body footer .clear-blue-child-anchor a {
   color: #00C4FD;
