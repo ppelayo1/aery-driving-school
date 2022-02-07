@@ -58,7 +58,7 @@
                     </div>
                     <div class="d-flexs">
                         <ul class='prices'>
-                            <li>$325* <span class='ageGroup'>teens</span></li>
+                            <li>$325* <span class='ageGroup'>&nbspteens</span></li>
                             <li>$335** <span class="ageGroup">adults</span></li>
                             <li class='mt-4'>$125*</li>
                         </ul>
@@ -97,16 +97,37 @@
             </ul>
 
             <div>
-            <ol>
-                <li>Have your permit.</li>
-                <li>Call to set up your first driving lesson.</li>
-                <li>Pay the same day you book your lesson.</li>
-                <li>We will pick you up and return you.</li>
-                <li>Lessons will focus on areas that you need improvement.</li>
-                <li>Next lesson can be scheduled as soon as the next day, and we offer 7 days a week 7am-7pm.*</li>
-                <li>If student is a minor the DMV 6 Hour Certificate of Completion will be issued after the completion of the 3rd driving lesson.****</li>
-            </ol>
+                <ol class='lineHeight2'>
+                    <li>Have your permit.</li>
+                    <li>Call to set up your first driving lesson.</li>
+                    <li>Pay the same day you book your lesson.</li>
+                    <li>We will pick you up and return you.</li>
+                    <li>Lessons will focus on areas that you need improvement.</li>
+                    <li>Next lesson can be scheduled as soon as the next day, and we offer 7 days a week 7am-7pm.*</li>
+                    <li>If student is a minor the DMV 6 Hour Certificate of Completion will be issued after the completion of the 3rd driving lesson.****</li>
+                </ol>
             </div>
+
+            <div class='mt-5'>
+                <h3 class='text-center'>Contact Us</h3>
+                <div class='mt-3'>
+                    <div>
+                        <ul class='list-unstyled'>
+                            <li>5750 Division St Unit 202A</li>
+                            <li>Riverside, CA 92506</li>
+                            <li class='font-weight-900'>(951)201-7780</li>
+                        </ul>
+                        <ul class='list-unstyled'>
+                            <li>5750 Division St Unit 202A</li>
+                            <li>Riverside, CA 92506</li>
+                            <li class='font-weight-900'>(951)201-7780</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
     </div>

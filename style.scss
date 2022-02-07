@@ -38,6 +38,21 @@ body{
         color:$whiteColor;
     }
 
+    .font-weight-900{
+        font-weight:900;
+    }
+
+    .margin-top-5rem{
+        margin-top:5rem;
+    }
+
+    .width15pt4{
+        width:15.4rem;
+    }
+
+    .lineHeight2{
+        line-height:2;
+    }
     margin:0;
     font-family:'Lato', sans-serif;
     header{
@@ -135,7 +150,6 @@ body{
     .behind-the-wheel-disclaimer{
         margin-right:10rem;
     }
-
     .listBox{
         width:19rem;
         .bulletList{

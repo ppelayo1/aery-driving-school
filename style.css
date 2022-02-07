@@ -24,6 +24,18 @@ body h3 {
 body .white-color {
   color: #ffffff;
 }
+body .font-weight-900 {
+  font-weight: 900;
+}
+body .margin-top-5rem {
+  margin-top: 5rem;
+}
+body .width15pt4 {
+  width: 15.4rem;
+}
+body .lineHeight2 {
+  line-height: 2;
+}
 body header {
   border-bottom: solid 5px black;
   margin: 8px 8px 0 8px;
