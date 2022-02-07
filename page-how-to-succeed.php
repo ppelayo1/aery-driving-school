@@ -25,12 +25,12 @@
             <img src=<?php echo '"' . get_template_directory_uri() . '/assets/images/lightbulb.jpg"';?> alt='lightBulb'>
         </div>
         <div class='d-flex flex-column align-items-center'>
-            <div class='width15pt4'>
+            <div class='width-15pt4'>
                 <h3 class='mt-4'>DMV Education Materials</h3>
                 <p>Take advantage of the links below from the DMV</p>
             </div>
             <div class=''>
-                <ul class='list-unstyled lineHeight2'>
+                <ul class='list-unstyled line-height-2'>
                     <li><a href=''>DMV HandBooks</a></li>
                     <li><a href=''>Practice Tests(Written)</a></li>
                     <li><a href=''>Videos</a></li>
@@ -38,7 +38,7 @@
                 </ul>
             </div>
         </div>
-        <div class="container enrollmentWrapper enrollmentTopPage text-center mt-4">
+        <div class="container text-center mt-4">
             <a class="enrollmentLink" href=""> Enroll Now </a>
         </div>
     </div>

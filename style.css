@@ -21,19 +21,73 @@ body h3 {
   font-weight: 900;
   font-size: 1.3rem;
 }
+body strong {
+  font-weight: 900;
+}
+body small {
+  font-size: 0.7rem;
+}
 body .white-color {
   color: #ffffff;
+}
+body .orange-red-color {
+  color: #F25A34;
+}
+body .clear-blue-color {
+  color: #00C4FD;
+}
+body .font-weight-300 {
+  font-weight: 300;
 }
 body .font-weight-900 {
   font-weight: 900;
 }
+body .margin-top-1pt3rem {
+  margin-top: 1.3rem;
+}
+body .margin-top-1pt6rem {
+  margin-top: 1.6rem;
+}
+body .margin-top-2rem {
+  margin-top: 2rem;
+}
+body .margin-top-3rem {
+  margin-top: 3rem;
+}
 body .margin-top-5rem {
   margin-top: 5rem;
 }
-body .width15pt4 {
+body .margin-left-2rem {
+  margin-left: 2rem;
+}
+body .margin-left-2pt4rem {
+  margin-left: 2.4rem;
+}
+body .margin-bottom-5rem {
+  margin-bottom: 5rem;
+}
+body .width-3rem {
+  width: 3rem;
+}
+body .width-11rem {
+  width: 11rem;
+}
+body .width-15pt4 {
   width: 15.4rem;
 }
-body .lineHeight2 {
+body .width-15rem {
+  width: 15rem;
+}
+body .width-19rem {
+  width: 19rem;
+}
+body .line-height-0pt5 {
+  line-height: 0.5;
+}
+body .line-height-1 {
+  line-height: 1;
+}
+body .line-height-2 {
   line-height: 2;
 }
 body header {
@@ -71,137 +125,26 @@ body main .heroHeader .heroSecondaryText {
   color: #ffffff;
   font-weight: 900;
 }
-body main .enrollNowWrapper {
-  margin-top: 2rem;
-}
-body main .enrollNowWrapper .enrollImgTxtWrapper {
-  margin-top: 1rem;
-  display: flex;
-}
-body main .enrollNowWrapper .enrollImgTxtWrapper .enrollmentTxtWrapper {
-  margin-left: 1rem;
-}
-body main .enrollNowWrapper .enrollImgTxtWrapper .enrollmentTxtWrapper .limitedTimePrice {
-  color: #F25A34;
-}
-body main .enrollNowWrapper .enrollImgTxtWrapper .enrollmentTxtWrapper .limitedTimeLessons {
-  margin: 0;
-}
-body main .priceContainer {
-  width: 19rem;
-}
-body main .priceContainer .bottom-price {
-  margin-left: 2.4rem;
-}
-body .enrollmentWrapper .enrollmentLink {
+body .enrollmentLink {
   color: #F25A34;
   font-size: 1.5rem;
   font-weight: 900;
   font-style: italic;
   text-decoration: none;
 }
-body .enrollmentTopPage {
-  margin-bottom: 5rem;
-}
 body .shadeBackground {
   background: #98D6E8;
-}
-body .disclaimer {
-  list-style: none;
-  font-size: 0.5rem;
-  padding: 0;
-}
-body .behind-the-wheel-disclaimer {
-  margin-right: 10rem;
-}
-body .listBox {
-  width: 19rem;
-}
-body .listBox .bulletList {
-  width: 69%;
-}
-body .listBox .bulletList .limitedTime {
-  color: #F25A34;
-  font-style: italic;
-  font-weight: 900;
-}
-body .content-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: between;
-  align-items: center;
-}
-body .content-box .prices {
-  list-style: none;
-  font-weight: 300;
-}
-body .content-box .prices .ageGroup {
-  font-weight: 900;
-}
-body .content-box-margin-top {
-  margin-top: 2rem;
-}
-body .content-box-padding-top {
-  padding-top: 2rem;
 }
 body footer {
   margin-top: 6.8rem;
   background: linear-gradient(180deg, #98D6E8 32.74%, #0D5165 39.55%, #0A7290 62.12%, #000000 72.41%);
   border-top: solid 1px black;
 }
-body footer .content-box {
-  margin-top: 3rem;
-}
-body footer .content-box .phoneWrapper .phoneContent {
-  margin-left: 2rem;
-  margin-top: 1.6rem;
-}
-body footer .content-box .phoneWrapper .phoneContent .phoneImgWrapper {
-  float: left;
-}
-body footer .content-box .phoneWrapper .phoneContent .phoneImgWrapper .phoneImg {
-  width: 3rem;
-}
-body footer .content-box .phoneWrapper .phoneContent .phoneImgWrapper .phoneLearnMore {
-  color: #F25A34;
-  font-size: 0.875rem;
-  margin-top: 0.6rem;
-}
-body footer .content-box .phoneWrapper .phoneContent .phoneNumber {
-  list-style: none;
-  margin-left: 3rem;
-}
-body footer .content-box .phoneWrapper .phoneContent .phoneNumber li:first-child {
-  line-height: 0.5;
-}
-body footer .content-box .phoneWrapper .phoneContent .phoneNumber li:nth-child(2) {
-  margin-top: 1.3rem;
-}
-body footer .content-box .footerLinksWrapper {
+body footer .clear-blue-child-anchor a {
   color: #00C4FD;
 }
-body footer .content-box .footerLinksWrapper ul {
-  list-style: none;
-  padding: 0;
-  margin-right: 6rem;
-  line-height: 2;
-  font-weight: 300;
-}
-body footer .content-box .footerLinksWrapper ul a {
-  text-decoration: none;
-  color: #00C4FD;
-}
-body footer .content-box .footerLinksWrapper.useful-links {
+body footer .white-child-anchor a {
   color: #ffffff;
-}
-body footer .content-box .footerLinksWrapper.useful-links a {
-  color: #ffffff;
-}
-body footer .copyright {
-  color: #ffffff;
-  font-size: 0.5rem;
-  padding-bottom: 1rem;
-  margin-left: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

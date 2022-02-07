@@ -19,6 +19,9 @@ $gradiant3:62.12%;
 $gradiant4:72.41%;
 
 body{
+    margin:0;
+    font-family:'Lato', sans-serif;
+
     h1{
         font-weight:900;
         font-size:2rem;
@@ -34,27 +37,98 @@ body{
         font-size:1.3rem;
     }
 
+    strong{
+        font-weight:900;
+    }
+
+    small{
+        font-size:0.7rem;
+    }
+
     .white-color{
         color:$whiteColor;
+    }
+
+    .orange-red-color{
+        color:$orangeRed;
+    }
+
+    .clear-blue-color{
+        color:$clearBlue;
+    }
+
+    .font-weight-300{
+        font-weight:300;
     }
 
     .font-weight-900{
         font-weight:900;
     }
 
+    .margin-top-1pt3rem{
+        margin-top:1.3rem;
+    }
+
+    .margin-top-1pt6rem{
+        margin-top:1.6rem;
+    }
+
+    .margin-top-2rem{
+        margin-top:2rem;
+    }
+
+    .margin-top-3rem{
+        margin-top:3rem;
+    }
+
     .margin-top-5rem{
         margin-top:5rem;
     }
 
-    .width15pt4{
-        width:15.4rem;
+    .margin-left-2rem{
+        margin-left:2rem;
     }
 
-    .lineHeight2{
+    .margin-left-2pt4rem{
+        margin-left:2.4rem;
+    }
+
+    .margin-bottom-5rem{
+        margin-bottom:5rem;
+    }
+
+    .width-3rem{
+        width:3rem;
+    }
+
+    .width-11rem{
+        width:11rem;
+    }
+
+    .width-15pt4{
+        width:15.4rem;
+    }
+    
+    .width-15rem{
+        width:15rem;
+    }
+
+    .width-19rem{
+        width:19rem;
+    }
+
+    .line-height-0pt5{
+        line-height:0.5;
+    }
+
+    .line-height-1{
+        line-height:1;
+    }
+
+    .line-height-2{
         line-height:2;
     }
-    margin:0;
-    font-family:'Lato', sans-serif;
+
     header{
         border-bottom:solid 5px black;
         .customize-partial-edit-shortcut-custom_logo{
@@ -97,162 +171,35 @@ body{
                 font-weight:900;
             }
         }
-
-        .enrollNowWrapper{
-            margin-top:2rem;
-            .enrollImgTxtWrapper{
-                margin-top:1rem;
-                display:flex;
-                .enrollmentTxtWrapper{
-                    margin-left:1rem;
-                    .limitedTimePrice{
-                        color:$orangeRed;
-                    }
-                    .limitedTimeLessons{
-                        margin:0;
-                    }
-                }
-            }
-        }
-
-        .priceContainer{
-            width:19rem;
-
-            .bottom-price{
-                margin-left:2.4rem;
-            }
-        }
     }
 
-    .enrollmentWrapper{
-        .enrollmentLink{
-            color:#F25A34;
-            font-size:1.5rem;
-            font-weight:900;
-            font-style:italic;
-            text-decoration: none;
-        }
-    }
-    .enrollmentTopPage{
-        margin-bottom:5rem;
+    .enrollmentLink{
+        color:#F25A34;
+        font-size:1.5rem;
+        font-weight:900;
+        font-style:italic;
+        text-decoration: none;
     }
 
     .shadeBackground{
         background:$lightBlue;
     }
 
-    .disclaimer{
-        list-style: none;
-        font-size:0.5rem;
-        padding:0;
-    }
-
-    .behind-the-wheel-disclaimer{
-        margin-right:10rem;
-    }
-    .listBox{
-        width:19rem;
-        .bulletList{
-            width:69%;
-            .limitedTime{
-                color:$orangeRed;
-                font-style:italic;
-                font-weight:900;
-            }
-        }
-    }
-
-    .content-box{
-        display:flex;
-        flex-direction:column;
-        justify-content: between;
-        align-items: center;
-
-        .prices{
-            list-style: none;
-            font-weight:300;
-
-            .ageGroup{
-                font-weight:900;
-            }
-        }
-      
-    }
-
-    .content-box-margin-top{
-        margin-top:2rem;
-    }
-
-    .content-box-padding-top{
-        padding-top:2rem;
-    }
-
     footer{
         margin-top:6.8rem;
         background: linear-gradient(180deg, $lightBlue $gradiant1, $darkerBlue $gradiant2, $transitionBlue $gradiant3, $black $gradiant4);
         border-top:solid 1px black;
-
-        .content-box{
-            margin-top:3rem;
-
-            .phoneWrapper{
-                .phoneContent{
-                    margin-left:2rem;
-                    margin-top:1.6rem;
-                    .phoneImgWrapper{
-                        float:left;
-                        .phoneImg{
-                            width:3rem;
-                        }
-                        .phoneLearnMore{
-                            color:$orangeRed;
-                            font-size:0.875rem;
-                            margin-top:0.6rem;
-                        }
-                    }
-                    .phoneNumber{
-                        list-style:none;
-                        margin-left:3rem;
-
-                        li:first-child{
-                            line-height:0.5;
-                        }
-                        li:nth-child(2){
-                            margin-top:1.3rem;
-                        }
-                    }
-                }
-            }
-
-            .footerLinksWrapper{
+    
+        .clear-blue-child-anchor{
+            a{
                 color:$clearBlue;
-
-                ul{
-                    list-style: none;
-                    padding:0;
-                    margin-right:6rem;
-                    line-height:2;
-                    font-weight:300;
-
-                    a{
-                        text-decoration: none;
-                        color:$clearBlue;
-                    }
-                }
-                &.useful-links{
-                    color:$whiteColor;
-                    a{
-                        color:$whiteColor;
-                    }
-                }
             }
         }
 
-        .copyright{
-            color:$whiteColor;
-            font-size:0.5rem;
-            padding-bottom:1rem;
-            margin-left:1rem;
+        .white-child-anchor{
+            a{
+                color:$whiteColor;
+            }
         }
     }
 }

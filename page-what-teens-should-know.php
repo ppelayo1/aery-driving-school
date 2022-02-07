@@ -23,7 +23,7 @@
             <h2 class='text-center'>Our #1 Priortiy Is You</h2>
             <p>Our desire is to not only help you pass the tests, but to also make sure that you will be a safe driver. We enjoy helping thousands of students in getting their license and to be prepared for the dangers that are on the road.</p>
             <p>Our lessons are one-on-one in vehicles and you will be recieve instruction from a DMV approved instructor. As long as you are in our service area we will pick you up and drop you off.</p>
-            <div class="container enrollmentWrapper enrollmentTopPage text-center mt-4">
+            <div class="container text-center mt-4">
             <a class="enrollmentLink" href=""> Enroll Now </a>
         </div>
     </div>

@@ -9,24 +9,24 @@
             </div>
         </div>
 
-        <div class="container enrollmentWrapper enrollmentTopPage text-center mt-4">
+        <div class="container margin-bottom-5rem text-center mt-4">
             <a class="enrollmentLink" href=""> Enroll Now </a>
         </div>
 
         <div class='container'>
-            <div class="content-box listBox container d-flex flex-column justify-content-between align-items-center">
+            <div class="container d-flex flex-column justify-content-between align-items-center">
                 <h2>CA DMV Approved</h2>
-                <ul class="bulletList">
+                <ul class="width-15rem">
                     <li>Behind-The-Wheel Driving Lessons</li>
                     <li>Online Driving Ed.</li>
                     <li>Traffic School</li>    
                 <ul>
             </div>
 
-            <div class="content-box listBox container d-flex flex-column justify-content-between align-items-center content-box-margin-top">
+            <div class="container d-flex flex-column justify-content-between align-items-center content-box-margin-top mt-4">
                 <h2>Affordable Learning</h2>
-                <ul class="bulletList">
-                    <li><span class="limitedTime">LIMITED TIME</span></br>6 Hour Behind-The-Wheel starting $325 for teens</li>
+                <ul class="width-15rem">
+                    <li><span class="orange-red-color font-weight-900">LIMITED TIME</span></br>6 Hour Behind-The-Wheel starting $325 for teens</li>
                     <li>Online Driving Lessons $49</li>
                     <li>Rent a Qualified Car for the DMV Driving Test starting $110</li>    
                 <ul>
