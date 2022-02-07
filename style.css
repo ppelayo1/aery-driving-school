@@ -66,6 +66,9 @@ body .margin-left-2pt4rem {
 body .margin-bottom-5rem {
   margin-bottom: 5rem;
 }
+body .width-2rem {
+  width: 2rem;
+}
 body .width-3rem {
   width: 3rem;
 }
@@ -90,22 +93,45 @@ body .line-height-1 {
 body .line-height-2 {
   line-height: 2;
 }
+body .font-size-1pt5 {
+  font-size: 1.5rem;
+}
+body .child-anchor a {
+  text-decoration: none;
+}
+body .clear-blue-child-anchor a {
+  color: #00C4FD;
+}
+body .white-child-anchor a {
+  color: #ffffff;
+}
+@media only screen and (min-width: 768px) {
+  body .white-child-md-anchor a {
+    color: #ffffff;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body .white-md-color {
+    color: #ffffff;
+  }
+}
 body header {
   border-bottom: solid 5px black;
-  margin: 8px 8px 0 8px;
 }
 body header .customize-partial-edit-shortcut-custom_logo {
   position: relative;
   left: 15%;
   bottom: 0.5em;
 }
+body header .header-background {
+  background: #009FCD;
+}
 body header .custom-logo-link img {
-  width: 50%;
+  width: 17rem;
   height: auto;
 }
 body header .hamburger-menu {
-  float: right;
-  width: 6%;
+  width: 2rem;
 }
 body main .heroHeader {
   height: 241px;
@@ -144,15 +170,6 @@ body footer {
   body footer {
     background: linear-gradient(180deg, #98D6E8 40.74%, #0D5165 51.55%, #0A7290 85.12%, #000000 94.41%);
   }
-}
-body footer .child-anchor a {
-  text-decoration: none;
-}
-body footer .clear-blue-child-anchor a {
-  color: #00C4FD;
-}
-body footer .white-child-anchor a {
-  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

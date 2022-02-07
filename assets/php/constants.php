@@ -1,5 +1,6 @@
 <?php 
 
 //nav menus
-$footerUsefulLinks="footer-external";
-$footerMenu= "footer-menu";
+$FOOTER_USEFUL_LINKS="footer-external";
+$FOOTER_MENU= "footer-menu";
+$HEADER_MENU = 'header-menu';

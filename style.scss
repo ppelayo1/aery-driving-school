@@ -9,6 +9,7 @@ $whiteColor:#ffffff;
 $orangeRed:#F25A34;
 $lightBlue:#98D6E8;
 $darkerBlue:#0D5165;
+$darkerBlue2:#009FCD;
 $transitionBlue: #0A7290;
 $black:#000000;
 $clearBlue:#00C4FD;
@@ -103,6 +104,10 @@ body{
         margin-bottom:5rem;
     }
 
+    .width-2rem{
+        width:2rem;
+    }
+
     .width-3rem{
         width:3rem;
     }
@@ -135,6 +140,43 @@ body{
         line-height:2;
     }
 
+    .font-size-1pt5{
+        font-size:1.5rem;
+    }
+
+    //disable the underline for menu-items anchors
+    .child-anchor{
+        a{
+            text-decoration: none;
+        }
+    }
+
+    .clear-blue-child-anchor{
+        a{
+            color:$clearBlue;
+        }
+    }
+
+    .white-child-anchor{
+        a{
+            color:$whiteColor;
+        }
+    }
+
+    .white-child-md-anchor{
+        @media only screen and (min-width:$bootstrap-md){
+            a{
+                color:$whiteColor;
+            }
+        }
+    }
+
+    .white-md-color{
+        @media only screen and (min-width:$bootstrap-md){
+            color:$whiteColor;
+        }
+    }
+
     header{
         border-bottom:solid 5px black;
         .customize-partial-edit-shortcut-custom_logo{
@@ -142,16 +184,17 @@ body{
             left:15%;
             bottom:0.5em;
         }
-        margin:8px 8px 0 8px;
+        .header-background{
+            background:$darkerBlue2;
+        }
         .custom-logo-link{
             img{
-                width:50%;
+                width:17rem;
                 height:auto;
             }
         }
         .hamburger-menu{
-            float:right;
-            width:6%;
+            width:2rem;
         }
     }
     
@@ -198,24 +241,6 @@ body{
 
         @media only screen and (min-width:$bootstrap-md){
             background: linear-gradient(180deg, $lightBlue $gradiant2_1, $darkerBlue $gradiant2_2, $transitionBlue $gradiant2_3, $black $gradiant2_4);
-        }
-    
-        .child-anchor{
-            a{
-                text-decoration: none;
-            }
-        }
-
-        .clear-blue-child-anchor{
-            a{
-                color:$clearBlue;
-            }
-        }
-
-        .white-child-anchor{
-            a{
-                color:$whiteColor;
-            }
         }
     }
 }
