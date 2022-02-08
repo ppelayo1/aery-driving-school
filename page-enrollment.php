@@ -26,15 +26,15 @@
                     Our Professional Instructors will provide you the essential training to become a safe driver. Among the things you will learn are.
                 </p>
 
-                <div class="d-flex gap-md-5">
-                    <ul class="w-75 w-md-100">
+                <div class="d-flex gap-md-5 width-md-26rem">
+                    <ul class="w-75 width-md-100">
                         <li>Vehicle Controls</li>
                         <li>Changing Lanes</li>
                         <li>Defensive Driving</li>
                         <li>Turns</li>
                     </ul>
 
-                    <ul class="w-75 w-md-100">
+                    <ul class="w-75 width-md-100">
                         <li>Stops and Limit Lines</li>
                         <li>Yielding</li>
                         <li>Speeds</li>
