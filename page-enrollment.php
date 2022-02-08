@@ -139,17 +139,17 @@
                 </div>
 
                 <div class='mt-5'>
-                    <h3 class='text-center'>Contact Us</h3>
+                    <h2 class='text-center'>Contact Us</h2>
                     <div class='mt-3'>
                         <div class='d-flex flex-column flex-md-row justify-content-center align-items-center gap-md-16rem ms-md-5'>
                             <ul class='list-unstyled'>
-                                <li class='d-none d-md-block'><h2>Riverside</h2></li>
+                                <li class='d-none d-md-block'><h3>Riverside</h3></li>
                                 <li>5750 Division St Unit 202A</li>
                                 <li>Riverside, CA 92506</li>
                                 <li class='font-weight-900'>(951)201-7780</li>
                             </ul>
                             <ul class='list-unstyled'>
-                                <li class='d-none d-md-block'><h2>San Diego</h2></li>
+                                <li class='d-none d-md-block'><h3>San Diego</h3></li>
                                 <li>5750 Division St Unit 202A</li>
                                 <li>Riverside, CA 92506</li>
                                 <li class='font-weight-900'>(951)201-7780</li>

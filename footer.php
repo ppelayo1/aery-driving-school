@@ -36,10 +36,10 @@
             
         <?php endif ?>
 
-        <p class='white-color ms-3 pb-3'>
-        <small>
-            Copyright © <?php echo date("Y");?> Aery Driving School. All Rights Reserved
-        </small>
+        <p class='white-color ms-3 pb-3 mb-0'>
+            <small class='d-flex justify-content-center'>
+                Copyright © <?php echo date("Y");?> Aery Driving School. All Rights Reserved
+            </small>
         </p>
     </footer>
 </body>
