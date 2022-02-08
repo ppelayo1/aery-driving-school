@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 <main>
-    <div class="container-fluid mt-4">
+    <div class="container mt-4">
         <h1 class="text-center d-md-none">Limited Time</h1>
-        <div class="d-flex mt-3">
+        <div class="d-flex mt-3 justify-content-center">
             <img class='w-50' src=<?php echo '"' . get_template_directory_uri() . '/assets/images/carPersonPointing.jpg' . '"';?> alt="people in car pointing right">
             <div class="ms-3 display-grid">
                 <h1 class="d-none d-md-block">Limited Time</h1>
@@ -48,43 +48,47 @@
     <div class="d-flex flex-column justify-content-between align-items-center shadeBackground mt-3 pt-4 pb-5">
         <div>
             <h2 class='text-center'>Our Prices</h2>
-            <ul class="list-unstyled line-height-1">
+            <ul class="list-unstyled line-height-1 margin-left-17rem">
                 <li><small>*We do not serve rural areas.</small></li>
                 <li><small>*If applicable.</small></li>
                 <li><small>**Single lesson and/or car rental</br> must be paid in cash(zillow,paypall).</small></li>
             </ul>
-            <div class='width-19rem'>
+            <div class='d-md-flex justify-content-center gap-md-5'>
                 <div class='mt-3'>
                     <h3>Behind The Wheel</h3>
-                    <div class='d-flex'>
-                        <div class="d-flex">
-                            <ul class="list-unstyled width-11rem">
+                    <div class='d-flex flex-column'>
+                        <div class="d-flex flex-md-column">
+                            <ul class="list-unstyled width-10rem">
                                 <li>Three 2-Hour Lessons:</li>
-                                <li class='mt-5'>One 2-Hour Lesson:</li>
+                            </ul>
+                            <ul class='list-unstyled'>
+                                <li class="font-weight-300 ms-3 ms-md-0">$325* <span class='font-weight-900'>&nbspteens</span></li>
+                                <li class="font-weight-300 ms-3 ms-md-0">$335**<span class="font-weight-900 ">adults</span></li>
                             </ul>
                         </div>
-                        <div class="d-flexs">
-                            <ul class='list-unstyled ms-3'>
-                                <li>$325* <span class='font-weight-900'>&nbspteens</span></li>
-                                <li>$335**<span class="font-weight-900 ">adults</span></li>
-                                <li class='mt-4 font-weight-300'>$125*</li>
+                        <div class="d-flex flex-md-column">
+                            <ul class="list-unstyled width-10rem">
+                                <li>One 2-Hour** Lesson:</li>
+                            </ul>
+                            <ul class='list-unstyled'>
+                                <li class='font-weight-300 ms-3 ms-md-0'>$125*</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class='mt-3'>
                     <h3>Teen Online Driver Education</h3>
-                    <div class='d-flex'>
-                        <p class='width-11rem'>30-hour home study DMV Certificate of Completion(not included).  </p>
-                        <p class='font-weight-300 ms-3 align-self-center'>$49</p>
-                    </div>
+                    <ul class='d-flex list-unstyled flex-md-column'>
+                        <li class='width-10rem width-md-17rem'>30-hour home study (Does not include DMV Certificate of Completion).  </li>
+                        <li class='font-weight-300 ms-3 ms-md-0 mt-md-3 align-self-center md-align-self-baseline'>$49</li>
+                    </ul>
                 </div>
                 <div class='mt-3'>
                     <h3>Car Rental</h3>
-                    <div class='d-flex'>
-                        <p class='width-11rem'>Pick up and Drop off for the DMV Test </p>
-                        <p class='font-weight-300 ms-3 align-self-center'>$150</p>
-                    </div>
+                    <ul class='d-flex flex-md-column list-unstyled'>
+                        <li class='width-10rem'>Pick up and Drop off for the DMV Test </li>
+                        <li class='font-weight-300 ms-3 ms-md-0 mt-md-3 align-self-center md-align-self-baseline'>$150</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -93,12 +97,12 @@
     <div class='container mt-5'>
         <div class='d-flex flex-column align-items-center'>
             <h2>Start Your First Mile Today</h2>
-            <img class='mt-4 w-75' src=<?php echo '"' . get_template_directory_uri() . '/assets/images/carDrivingAway.jpg' . '"'; ?>>
+            <img class='mt-4 w-50' src=<?php echo '"' . get_template_directory_uri() . '/assets/images/carDrivingAway.jpg' . '"'; ?>>
         </div>
 
         <div class='d-flex flex-column align-items-center mt-5'>
             <div>
-                <div class='margin-left-2rem'>
+                <div class='margin-left-2rem m-md-0 d-md-flex align-items-center flex-column'>
                     <h3>Our Behind-The-Wheel Process</h3>
                     <ul class="list-unstyled">
                         <li>*If it's an eligible location.</li>
@@ -108,7 +112,7 @@
                 </div>
 
                 <div>
-                    <ol class='line-height-2'>
+                    <ol class='line-height-2 d-md-none'>
                         <li>Have your permit.</li>
                         <li>Call to set up your first driving lesson.</li>
                         <li>Pay the same day you book your lesson.</li>
@@ -117,18 +121,35 @@
                         <li>Next lesson can be scheduled as soon as the next day, and we offer 7 days a week 7am-7pm.*</li>
                         <li>If student is a minor the DMV 6 Hour Certificate of Completion will be issued after the completion of the 3rd driving lesson.****</li>
                     </ol>
+
+                    <div class='d-flex ms-5'>
+                        <ol class='line-height-2 d-none d-md-block w-100'>
+                            <li>Have your permit.</li>
+                            <li>Call to set up your first driving lesson.</li>
+                            <li>Pay the same day you book your lesson.</li>
+                            <li>We will pick you up and return you.</li>
+                            <li>Lessons will focus on areas that you need improvement.</li>
+                        </ol>
+
+                        <ol start='6' class='line-height-2 d-none d-md-block w-100'>
+                            <li>Next lesson can be scheduled as soon as the next day, and we offer 7 days a week 7am-7pm.*</li>
+                            <li>If student is a minor the DMV 6 Hour Certificate of Completion will be issued after the completion of the 3rd driving lesson.****</li>
+                        </ol>
+                    </div>
                 </div>
 
                 <div class='mt-5'>
                     <h3 class='text-center'>Contact Us</h3>
                     <div class='mt-3'>
-                        <div class='d-flex flex-column align-items-center'>
+                        <div class='d-flex flex-column flex-md-row justify-content-center align-items-center gap-md-16rem ms-md-5'>
                             <ul class='list-unstyled'>
+                                <li class='d-none d-md-block'><h2>Riverside</h2></li>
                                 <li>5750 Division St Unit 202A</li>
                                 <li>Riverside, CA 92506</li>
                                 <li class='font-weight-900'>(951)201-7780</li>
                             </ul>
                             <ul class='list-unstyled'>
+                                <li class='d-none d-md-block'><h2>San Diego</h2></li>
                                 <li>5750 Division St Unit 202A</li>
                                 <li>Riverside, CA 92506</li>
                                 <li class='font-weight-900'>(951)201-7780</li>

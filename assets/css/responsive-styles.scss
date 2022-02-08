@@ -1,4 +1,8 @@
 @media only screen and (min-width:$bootstrap-md){
+    .width-md-17rem{
+        width:17rem;
+    }
+
     .width-md-22rem{
         width:22rem;
     }
@@ -16,6 +20,14 @@
         
     }
 
+    .margin-left-17rem{
+        margin-left:17rem;
+    }
+
+    .gap-md-16rem{
+        gap:16rem;
+    }
+
     .white-child-md-anchor{
         a{
             color:$whiteColor;
@@ -25,6 +37,10 @@
     .white-md-color{
         color:$whiteColor;
         
+    }
+
+    .md-align-self-baseline{
+        align-self: baseline !important;
     }
 
     body{

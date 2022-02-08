@@ -10,9 +10,8 @@
         </div>
 
         <div class="container margin-bottom-5rem text-center mt-4">
-            <a class="enrollmentLink" href=""> Enroll Now </a>
+            <a class="enrollmentLink" href=<?php echo '"' . site_url('/enrollment') . '"'; ?>> Enroll Now </a>
         </div>
-
         <div class='container'>
             <div class='row'>
                 <div class="col-md d-flex flex-column align-items-center">
