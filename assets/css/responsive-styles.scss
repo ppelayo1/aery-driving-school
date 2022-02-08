@@ -1,26 +1,26 @@
-.max-width-md-75{
-    @media only screen and (min-width:$bootstrap-md){
-        max-width:75%;
+@media only screen and (min-width:$bootstrap-md){
+    .width-md-22rem{
+        width:22rem;
     }
-}
 
-.white-child-md-anchor{
-    @media only screen and (min-width:$bootstrap-md){
+    .max-width-md-75{
+        max-width:75%;
+        
+    }
+
+    .white-child-md-anchor{
         a{
             color:$whiteColor;
         }
     }
-}
 
-.white-md-color{
-    @media only screen and (min-width:$bootstrap-md){
+    .white-md-color{
         color:$whiteColor;
+        
     }
-}
 
-body{
-    footer{
-        @media only screen and (min-width:$bootstrap-md){
+    body{
+        footer{
             background: linear-gradient(180deg, $lightBlue $gradiant2_1, $darkerBlue $gradiant2_2, $transitionBlue $gradiant2_3, $black $gradiant2_4);
         }
     }

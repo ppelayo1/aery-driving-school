@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.php",
   "scripts": {
-    "start": "./node_modules/.bin/sass --watch ./assets/css/style.scss style.css"
+    "start": "./node_modules/.bin/sass --watch ./assets/css/style.scss style-min.css --style compressed"
   },
   "repository": {
     "type": "git",

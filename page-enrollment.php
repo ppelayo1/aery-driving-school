@@ -22,19 +22,19 @@
 
     <div class="content-box container d-flex flex-column justify-content-between align-items-center mt-5">
                 <h2>Professional Training</h2>
-                <p>
+                <p class='width-19rem width-md-22rem'>
                     Our Professional Instructors will provide you the essential training to become a safe driver. Among the things you will learn are.
                 </p>
 
-                <div class="d-flex">
-                    <ul class="w-75">
+                <div class="d-flex gap-md-5">
+                    <ul class="w-75 w-md-100">
                         <li>Vehicle Controls</li>
                         <li>Changing Lanes</li>
                         <li>Defensive Driving</li>
                         <li>Turns</li>
                     </ul>
 
-                    <ul class="w-75">
+                    <ul class="w-75 w-md-100">
                         <li>Stops and Limit Lines</li>
                         <li>Yielding</li>
                         <li>Speeds</li>
