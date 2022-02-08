@@ -36,6 +36,9 @@ body .orange-red-color {
 body .clear-blue-color {
   color: #00C4FD;
 }
+body .font-size-1pt4 {
+  font-size: 1.4rem;
+}
 body .font-weight-300 {
   font-weight: 300;
 }
@@ -84,6 +87,11 @@ body .width-15rem {
 body .width-19rem {
   width: 19rem;
 }
+@media only screen and (min-width: 768px) {
+  body .max-width-md-75 {
+    max-width: 75%;
+  }
+}
 body .line-height-0pt5 {
   line-height: 0.5;
 }
@@ -95,6 +103,24 @@ body .line-height-2 {
 }
 body .font-size-1pt5 {
   font-size: 1.5rem;
+}
+body .display-grid {
+  display: grid;
+}
+body .grid-row-start-1 {
+  grid-row-start: 1;
+}
+body .grid-row-start-2 {
+  grid-row-start: 2;
+}
+body .grid-row-start-3 {
+  grid-row-start: 3;
+}
+body .align-self-center {
+  align-self: center;
+}
+body .align-self-end {
+  align-self: end;
 }
 body .child-anchor a {
   text-decoration: none;
@@ -116,7 +142,8 @@ body .white-child-anchor a {
   }
 }
 body header {
-  border-bottom: solid 5px black;
+  border-bottom: solid 1px black;
+  min-height: 3rem;
 }
 body header .customize-partial-edit-shortcut-custom_logo {
   position: relative;

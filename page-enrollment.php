@@ -1,15 +1,21 @@
 <?php get_header(); ?>
 <main>
-    <div class="container mt-4">
-        <h1 class="text-center">Limited Time</h1>
+    <div class="container-fluid mt-4">
+        <h1 class="text-center d-md-none">Limited Time</h1>
         <div class="d-flex mt-3">
-            <img src=<?php echo '"' . get_template_directory_uri() . '/assets/images/carPersonPointing.jpg' . '"';?> alt="people in car pointing right">
-            <div class="ms-3 d-flex justify-content-end flex-column">
-                <p class="orange-red-color">$325*</p>
-                <p class="my-0">Three 2-hour Behind-The-Wheel Lessons</p>
+            <img class='w-50' src=<?php echo '"' . get_template_directory_uri() . '/assets/images/carPersonPointing.jpg' . '"';?> alt="people in car pointing right">
+            <div class="ms-3 display-grid">
+                <h1 class="d-none d-md-block">Limited Time</h1>
+                <p class="orange-red-color font-size-1pt4 mb-0 grid-row-start-2 align-self-center">$325*</p>
+                <div class='grid-row-start-3 align-self-end'>
+                <p class="my-0 max-width-md-75">Three 2-hour Behind-The-Wheel Lessons</p>
+                    <div class="container p-0 mt-4 d-none d-md-block">
+                        <a class="enrollmentLink" href=""> Enroll Now </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="container text-center mt-4">
+        <div class="container text-center mt-4 d-md-none">
             <a class="enrollmentLink" href=""> Enroll Now </a>
         </div>
     </div>

@@ -64,6 +64,10 @@ body{
         color:$clearBlue;
     }
 
+    .font-size-1pt4{
+        font-size:1.4rem;
+    }
+
     .font-weight-300{
         font-weight:300;
     }
@@ -128,6 +132,12 @@ body{
         width:19rem;
     }
 
+    .max-width-md-75{
+        @media only screen and (min-width:$bootstrap-md){
+            max-width:75%;
+        }
+    }
+
     .line-height-0pt5{
         line-height:0.5;
     }
@@ -142,6 +152,29 @@ body{
 
     .font-size-1pt5{
         font-size:1.5rem;
+    }
+
+    .display-grid{
+        display:grid;
+    }
+    .grid-row-start-1{
+        grid-row-start:1;
+    }
+
+    .grid-row-start-2{
+        grid-row-start:2;
+    }
+
+    .grid-row-start-3{
+        grid-row-start:3;
+    }
+
+    .align-self-center{
+        align-self:center;
+    }
+
+    .align-self-end{
+        align-self: end;
     }
 
     //disable the underline for menu-items anchors
@@ -178,7 +211,8 @@ body{
     }
 
     header{
-        border-bottom:solid 5px black;
+        border-bottom:solid 1px black;
+        min-height:3rem;
         .customize-partial-edit-shortcut-custom_logo{
             position:relative;
             left:15%;
