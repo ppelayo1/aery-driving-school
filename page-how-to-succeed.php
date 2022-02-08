@@ -3,7 +3,7 @@
 <main>
 
     <h1 class='text-center margin-top-5rem'>How To Succeed</h1>
-    <div class='container margin-top-5rem'>
+    <div class='container margin-top-5rem max-width-45rem'>
         <h2 class='text-center'>Three Tips for Success</h2>
         <div class='mt-5'>
             <h3>Be Rested</h3>
@@ -21,22 +21,22 @@
 
     <div class='container mt-5'>
         <h2 class='text-center'>Useful Information</h2>
-        <div class='text-center mt-3'>
+        <div class='d-flex flex-column flex-md-row align-items-center mt-3'>
             <img src=<?php echo '"' . get_template_directory_uri() . '/assets/images/lightbulb.jpg"';?> alt='lightBulb'>
+            <div class='d-flex flex-column align-items-center'>
+                <div class='width-15pt4'>
+                    <h3 class='mt-4'>DMV Education Materials</h3>
+                    <p>Take advantage of the links below from the DMV</p>
+                </div>
+                <div class=''>
+                    <ul class='list-unstyled line-height-2'>
+                        <li><a href=''>DMV HandBooks</a></li>
+                        <li><a href=''>Practice Tests(Written)</a></li>
+                        <li><a href=''>Videos</a></li>
+                        <li><a href=''>And More</a></li>
+                    </ul>
+                </div>
         </div>
-        <div class='d-flex flex-column align-items-center'>
-            <div class='width-15pt4'>
-                <h3 class='mt-4'>DMV Education Materials</h3>
-                <p>Take advantage of the links below from the DMV</p>
-            </div>
-            <div class=''>
-                <ul class='list-unstyled line-height-2'>
-                    <li><a href=''>DMV HandBooks</a></li>
-                    <li><a href=''>Practice Tests(Written)</a></li>
-                    <li><a href=''>Videos</a></li>
-                    <li><a href=''>And More</a></li>
-                </ul>
-            </div>
         </div>
         <div class="container text-center mt-4">
             <a class="enrollmentLink" href=""> Enroll Now </a>
