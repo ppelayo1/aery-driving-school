@@ -1,0 +1,114 @@
+/*
+Theme Name: Aery Driving School
+Author: Patrick Pelayo
+Description: The Aery Driving School Website
+Version: 0.0.1
+
+*/
+@import './variables.scss';
+@import './generic-styles.scss';
+
+$gradiant1:32.74%;
+$gradiant2:39.55%;
+$gradiant3:62.12%;
+$gradiant4:72.41%;
+
+$gradiant2_1:40.74%;
+$gradiant2_2:51.55%;
+$gradiant2_3:85.12%;
+$gradiant2_4:94.41%;
+
+$bootstrap-md:768px;
+body{
+    margin:0;
+    font-family:'Lato', sans-serif;
+
+    h1{
+        font-weight:900;
+        font-size:2rem;
+    }
+
+    h2{
+        font-weight:900;
+        font-size:1.7rem;
+    }
+
+    h3{
+        font-weight:900;
+        font-size:1.3rem;
+    }
+
+    strong{
+        font-weight:900;
+    }
+
+    small{
+        font-size:0.7rem;
+    }
+
+    header{
+        border-bottom:solid 1px black;
+        min-height:3rem;
+        .customize-partial-edit-shortcut-custom_logo{
+            position:relative;
+            left:15%;
+            bottom:0.5em;
+        }
+        .header-background{
+            background:$darkerBlue2;
+        }
+        .custom-logo-link{
+            img{
+                width:17rem;
+                height:auto;
+            }
+        }
+        .hamburger-menu{
+            width:2rem;
+        }
+    }
+    
+    main{
+        .heroHeader{
+            height:241px;
+            background-position: bottom;
+            background-size:cover;
+        
+            #hero_anchor{
+                position:relative;
+                left:40%;
+            }
+
+            .heroPrimaryText{
+                font-size:1.5rem;
+                color:$whiteColor;
+                font-weight:900;
+            }
+
+            .heroSecondaryText{
+                color:$whiteColor;
+                font-weight:900;
+            }
+        }
+    }
+
+    .enrollmentLink{
+        color:#F25A34;
+        font-size:1.5rem;
+        font-weight:900;
+        font-style:italic;
+        text-decoration: none;
+    }
+
+    .shadeBackground{
+        background:$lightBlue;
+    }
+
+    footer{
+        margin-top:6.8rem;
+        background: linear-gradient(180deg, $lightBlue $gradiant1, $darkerBlue $gradiant2, $transitionBlue $gradiant3, $black $gradiant4);
+        border-top:solid 1px black;
+    }
+}
+
+@import './responsive-styles.scss';

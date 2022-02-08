@@ -1,0 +1,137 @@
+.white-color{
+    color:$whiteColor;
+}
+
+.orange-red-color{
+    color:$orangeRed;
+}
+
+.clear-blue-color{
+    color:$clearBlue;
+}
+
+.font-size-1pt4{
+    font-size:1.4rem;
+}
+
+.font-weight-300{
+    font-weight:300;
+}
+
+.font-weight-900{
+    font-weight:900;
+}
+
+.margin-top-1pt3rem{
+    margin-top:1.3rem;
+}
+
+.margin-top-1pt6rem{
+    margin-top:1.6rem;
+}
+
+.margin-top-2rem{
+    margin-top:2rem;
+}
+
+.margin-top-3rem{
+    margin-top:3rem;
+}
+
+.margin-top-5rem{
+    margin-top:5rem;
+}
+
+.margin-left-2rem{
+    margin-left:2rem;
+}
+
+.margin-left-2pt4rem{
+    margin-left:2.4rem;
+}
+
+.margin-bottom-5rem{
+    margin-bottom:5rem;
+}
+
+.width-2rem{
+    width:2rem;
+}
+
+.width-3rem{
+    width:3rem;
+}
+
+.width-11rem{
+    width:11rem;
+}
+
+.width-15pt4{
+    width:15.4rem;
+}
+
+.width-15rem{
+    width:15rem;
+}
+
+.width-19rem{
+    width:19rem;
+}
+
+.line-height-0pt5{
+    line-height:0.5;
+}
+
+.line-height-1{
+    line-height:1;
+}
+
+.line-height-2{
+    line-height:2;
+}
+
+.font-size-1pt5{
+    font-size:1.5rem;
+}
+
+.display-grid{
+    display:grid;
+}
+.grid-row-start-1{
+    grid-row-start:1;
+}
+
+.grid-row-start-2{
+    grid-row-start:2;
+}
+
+.grid-row-start-3{
+    grid-row-start:3;
+}
+
+.align-self-center{
+    align-self:center;
+}
+
+.align-self-end{
+    align-self: end;
+}
+
+//disable the underline for menu-items anchors
+.child-anchor{
+    a{
+        text-decoration: none;
+    }
+}
+
+.clear-blue-child-anchor{
+    a{
+        color:$clearBlue;
+    }
+}
+
+.white-child-anchor{
+    a{
+        color:$whiteColor;
+    }
+}

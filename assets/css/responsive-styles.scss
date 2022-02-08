@@ -1,0 +1,27 @@
+.max-width-md-75{
+    @media only screen and (min-width:$bootstrap-md){
+        max-width:75%;
+    }
+}
+
+.white-child-md-anchor{
+    @media only screen and (min-width:$bootstrap-md){
+        a{
+            color:$whiteColor;
+        }
+    }
+}
+
+.white-md-color{
+    @media only screen and (min-width:$bootstrap-md){
+        color:$whiteColor;
+    }
+}
+
+body{
+    footer{
+        @media only screen and (min-width:$bootstrap-md){
+            background: linear-gradient(180deg, $lightBlue $gradiant2_1, $darkerBlue $gradiant2_2, $transitionBlue $gradiant2_3, $black $gradiant2_4);
+        }
+    }
+}
