@@ -3,6 +3,14 @@
         width:17rem;
     }
 
+    .width-md-18rem{
+        width:18rem;
+    }
+
+    .width-md-21rem{
+        width:21rem;
+    }
+
     .width-md-22rem{
         width:22rem;
     }
@@ -18,6 +26,14 @@
     .max-width-md-75{
         max-width:75%;
         
+    }
+
+    .height-md-15rem{
+        height:15rem;
+    }
+
+    .height-md-17rem{
+        height:17rem;
     }
 
     .margin-left-17rem{
@@ -41,6 +57,10 @@
 
     .md-align-self-baseline{
         align-self: baseline !important;
+    }
+
+    .md-align-items-inherit{
+        align-items: inherit !important;
     }
 
     body{

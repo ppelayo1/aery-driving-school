@@ -21,20 +21,20 @@
 
     <div class='container mt-5'>
         <h2 class='text-center'>Useful Information</h2>
-        <div class='d-flex flex-column flex-md-row align-items-center mt-3'>
-            <img src=<?php echo '"' . get_template_directory_uri() . '/assets/images/lightbulb.jpg"';?> alt='lightBulb'>
+        <div class='d-flex flex-column gap-md-5 flex-md-row align-items-center md-align-items-inherit justify-content-center mt-3'>
+            <img class='width-md-21rem height-md-15rem' src=<?php echo '"' . get_template_directory_uri() . '/assets/images/lightbulb.jpg"';?> alt='lightBulb'>
             <div class='d-flex flex-column align-items-center'>
-                <div class='width-15pt4'>
-                    <h3 class='mt-4'>DMV Education Materials</h3>
+                <div class='width-md-18rem'>
+                    <h3 class='mt-4 mt-md-0'>DMV Education Materials</h3>
                     <p>Take advantage of the links below from the DMV</p>
-                </div>
-                <div class=''>
-                    <ul class='list-unstyled line-height-2'>
-                        <li><a href=''>DMV HandBooks</a></li>
-                        <li><a href=''>Practice Tests(Written)</a></li>
-                        <li><a href=''>Videos</a></li>
-                        <li><a href=''>And More</a></li>
-                    </ul>
+                    <div class='ms-md-5'>
+                        <ul class='list-unstyled line-height-2'>
+                            <li><a href=''>DMV HandBooks</a></li>
+                            <li><a href=''>Practice Tests(Written)</a></li>
+                            <li><a href=''>Videos</a></li>
+                            <li><a href=''>And More</a></li>
+                        </ul>
+                    </div>
                 </div>
         </div>
         </div>
