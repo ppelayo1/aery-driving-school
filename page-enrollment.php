@@ -97,71 +97,70 @@
     <div class='container mt-5'>
         <div class='d-flex flex-column align-items-center'>
             <h2>Start Your First Mile Today</h2>
-            <img class='mt-4 w-50' src=<?php echo '"' . get_template_directory_uri() . '/assets/images/carDrivingAway.jpg' . '"'; ?>>
+            <img class='mt-4 width-16rem width-md-30rem' src=<?php echo '"' . get_template_directory_uri() . '/assets/images/carDrivingAway.jpg' . '"'; ?>>
         </div>
 
         <div class='d-flex flex-column align-items-center mt-5'>
-            <div>
-                <div class='margin-left-2rem m-md-0 d-md-flex align-items-center flex-column'>
-                    <h3>Our Behind-The-Wheel Process</h3>
-                    <ul class="list-unstyled">
-                        <li>*If it's an eligible location.</li>
-                        <li>**Weekends are a courtesy schedule.</li>
-                        <li>***If he/she is eligible.</li>
-                    </ul>
-                </div>
+            <div class='margin-left-2rem m-md-0 d-md-flex align-items-center flex-column'>
+                <h3>Our Behind-The-Wheel Process</h3>
+                <ul class="list-unstyled">
+                    <li>*If it's an eligible location.</li>
+                    <li>**Weekends are a courtesy schedule.</li>
+                    <li>***If he/she is eligible.</li>
+                </ul>
+            </div>
 
-                <div>
-                    <ol class='line-height-2 d-md-none'>
+            <div>
+                <ol class='line-height-2 d-md-none'>
+                    <li>Have your permit.</li>
+                    <li>Call to set up your first driving lesson.</li>
+                    <li>Pay the same day you book your lesson.</li>
+                    <li>We will pick you up and return you.</li>
+                    <li>Lessons will focus on areas that you need improvement.</li>
+                    <li>Next lesson can be scheduled as soon as the next day, and we offer 7 days a week 7am-7pm.*</li>
+                    <li>If student is a minor the DMV 6 Hour Certificate of Completion will be issued after the completion of the 3rd driving lesson.****</li>
+                </ol>
+
+                <div class='d-flex ms-5'>
+                    <ol class='line-height-2 d-none d-md-block w-100'>
                         <li>Have your permit.</li>
                         <li>Call to set up your first driving lesson.</li>
                         <li>Pay the same day you book your lesson.</li>
                         <li>We will pick you up and return you.</li>
                         <li>Lessons will focus on areas that you need improvement.</li>
+                    </ol>
+
+                    <ol start='6' class='line-height-2 d-none d-md-block w-100'>
                         <li>Next lesson can be scheduled as soon as the next day, and we offer 7 days a week 7am-7pm.*</li>
                         <li>If student is a minor the DMV 6 Hour Certificate of Completion will be issued after the completion of the 3rd driving lesson.****</li>
                     </ol>
-
-                    <div class='d-flex ms-5'>
-                        <ol class='line-height-2 d-none d-md-block w-100'>
-                            <li>Have your permit.</li>
-                            <li>Call to set up your first driving lesson.</li>
-                            <li>Pay the same day you book your lesson.</li>
-                            <li>We will pick you up and return you.</li>
-                            <li>Lessons will focus on areas that you need improvement.</li>
-                        </ol>
-
-                        <ol start='6' class='line-height-2 d-none d-md-block w-100'>
-                            <li>Next lesson can be scheduled as soon as the next day, and we offer 7 days a week 7am-7pm.*</li>
-                            <li>If student is a minor the DMV 6 Hour Certificate of Completion will be issued after the completion of the 3rd driving lesson.****</li>
-                        </ol>
-                    </div>
                 </div>
+            </div>
 
-                <div class='mt-5'>
-                    <h2 class='text-center'>Contact Us</h2>
-                    <div class='mt-3'>
-                        <div class='d-flex flex-column flex-md-row justify-content-center align-items-center gap-md-16rem ms-md-5'>
-                            <ul class='list-unstyled'>
-                                <li class='d-none d-md-block'><h3>Riverside</h3></li>
-                                <li>5750 Division St Unit 202A</li>
-                                <li>Riverside, CA 92506</li>
-                                <li class='font-weight-900'>(951)201-7780</li>
-                            </ul>
-                            <ul class='list-unstyled'>
-                                <li class='d-none d-md-block'><h3>San Diego</h3></li>
-                                <li>5750 Division St Unit 202A</li>
-                                <li>Riverside, CA 92506</li>
-                                <li class='font-weight-900'>(951)201-7780</li>
-                            </ul>
-                            
-                        </div>
+            <div class='mt-5'>
+                <h2 class='text-center'>Contact Us</h2>
+                <div class='mt-3'>
+                    <div class='d-flex flex-column flex-md-row justify-content-center align-items-center gap-md-16rem ms-md-5'>
+                        <ul class='list-unstyled'>
+                            <li class='d-none d-md-block'><h3>Riverside</h3></li>
+                            <li>5750 Division St Unit 202A</li>
+                            <li>Riverside, CA 92506</li>
+                            <li class='font-weight-900'>(951)201-7780</li>
+                        </ul>
+                        <ul class='list-unstyled'>
+                            <li class='d-none d-md-block'><h3>San Diego</h3></li>
+                            <li>5750 Division St Unit 202A</li>
+                            <li>Riverside, CA 92506</li>
+                            <li class='font-weight-900'>(951)201-7780</li>
+                        </ul>
+                        
                     </div>
-
                 </div>
 
             </div>
+
         </div>
+        
 
     </div>
 

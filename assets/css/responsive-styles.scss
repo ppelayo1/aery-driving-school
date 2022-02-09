@@ -1,3 +1,5 @@
+$bootstrap-md:768px;
+
 @media only screen and (min-width:$bootstrap-md){
     .width-md-17rem{
         width:17rem;
@@ -5,6 +7,10 @@
 
     .width-md-18rem{
         width:18rem;
+    }
+
+    .width-md-19rem{
+        width:19rem;
     }
 
     .width-md-21rem{
@@ -17,6 +23,10 @@
 
     .width-md-26rem{
         width:26rem;
+    }
+
+    .width-md-30rem{
+        width:30rem;
     }
 
     .width-md-100{
@@ -75,6 +85,11 @@
         }
         p{
             font-size:1.3rem;
+        }
+        main{
+            .heroHeader{
+                padding-bottom:36%;
+            }
         }
         footer{
             background: linear-gradient(180deg, $lightBlue $gradiant2_1, $darkerBlue $gradiant2_2, $transitionBlue $gradiant2_3, $black $gradiant2_4);

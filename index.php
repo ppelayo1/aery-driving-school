@@ -3,9 +3,13 @@
 
         <div class="heroHeader container-fluid ">
             <span id="hero_anchor"></span>
-            <div class="d-flex flex-column justify-content-center h-100 text-center gap-4 mx-2">
-                <h1 class="heroPrimaryText">We Service Inland Empire and San Diego Areas</h1>
-                <p class="heroSecondaryText">63,000+ lessons </br> 16 years+ in service. </p>
+            <div class='position-relative'>
+                <div class='position-absolute'>
+                    <div class="d-flex flex-column justify-content-center h-100 text-center gap-4 mx-2">
+                        <h1 class="heroPrimaryText">We Service Inland Empire and San Diego Areas</h1>
+                        <p class="heroSecondaryText">63,000+ lessons </br> 16 years+ in service. </p>
+                    </div>
+                </div>
             </div>
         </div>
 

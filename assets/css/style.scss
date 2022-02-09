@@ -18,7 +18,6 @@ $gradiant2_2:51.55%;
 $gradiant2_3:85.12%;
 $gradiant2_4:94.41%;
 
-$bootstrap-md:768px;
 body{
     margin:0;
     font-family:'Lato', sans-serif;
@@ -70,9 +69,10 @@ body{
     
     main{
         .heroHeader{
-            height:241px;
-            background-position: bottom;
+            background-position-y: bottom;
+            background-position-x: left;
             background-size:cover;
+            padding-bottom:77%;
         
             #hero_anchor{
                 position:relative;

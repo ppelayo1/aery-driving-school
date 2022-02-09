@@ -3,7 +3,7 @@
 <main>
    
     <h1 class='text-center margin-top-5rem'>What Teens Should Know</h1>
-    <div class='container margin-top-5rem'>
+    <div class='container margin-top-5rem max-width-40rem'>
         <h2 class='text-center'>How To Get Licensed</h2>
         <div class='mt-5'>
             <h3>Get The Permit</h3>
@@ -19,7 +19,7 @@
         </div>
     </div>
 
-    <div class='container margin-top-5rem'>
+    <div class='container margin-top-5rem max-width-40rem'>
             <h2 class='text-center'>Our #1 Priortiy Is You</h2>
             <p>Our desire is to not only help you pass the tests, but to also make sure that you will be a safe driver. We enjoy helping thousands of students in getting their license and to be prepared for the dangers that are on the road.</p>
             <p>Our lessons are one-on-one in vehicles and you will be recieve instruction from a DMV approved instructor. As long as you are in our service area we will pick you up and drop you off.</p>
