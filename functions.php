@@ -2,6 +2,7 @@
 include_once(get_template_directory() . '/assets/php/constants.php');
 include_once(get_template_directory() . '/assets/php/usefulFunctions.php');
 include_once(get_template_directory() . '/assets/php/enqueueStyleSheets.php');
+include_once(get_template_directory() . '/assets/php/enqueueScripts.php');
 include_once(get_template_directory() . '/assets/php/registerMenus.php');
 
 function mytheme_customize_register( $wp_customize ) {
