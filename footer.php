@@ -1,6 +1,6 @@
 <?php do_action('wp_footer'); ?>
     <footer class="container-fluid">
-        <div class="margin-top-3rem d-flex align-items-center flex-column">
+        <div class="mt-5 d-flex align-items-center flex-column">
             <div>
                 <h3>Schedule Your First Driving Lesson </h3>
                 <div class='margin-top-1pt6rem margin-left-2rem'>

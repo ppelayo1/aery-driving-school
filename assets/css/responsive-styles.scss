@@ -1,4 +1,7 @@
+$bootstrap-sm:576px;
 $bootstrap-md:768px;
+$bootstrap-lg:992px;
+
 
 @media only screen and (min-width:$bootstrap-md){
     .width-md-17rem{
@@ -50,6 +53,10 @@ $bootstrap-md:768px;
         margin-left:17rem;
     }
 
+    .margin-md-top-8rem{
+        margin-top:8rem;
+    }
+
     .gap-md-16rem{
         gap:16rem;
     }
@@ -89,10 +96,34 @@ $bootstrap-md:768px;
         main{
             .heroHeader{
                 padding-bottom:36%;
+
+                .heroPrimaryText{
+                    font-size:2rem;
+                }
+                
+                .heroSecondaryText{
+                    font-size:1.5rem;
+                }
             }
         }
         footer{
             background: linear-gradient(180deg, $lightBlue $gradiant2_1, $darkerBlue $gradiant2_2, $transitionBlue $gradiant2_3, $black $gradiant2_4);
+        }
+    }
+}
+
+@media only screen and (min-width:$bootstrap-lg){
+    body{
+        main{
+            .heroHeader{
+                .heroPrimaryText{
+                    font-size:3rem;
+                }
+                
+                .heroSecondaryText{
+                    font-size:2rem;
+                }
+            }
         }
     }
 }

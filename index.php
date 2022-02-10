@@ -3,20 +3,23 @@
 
         <div class="heroHeader">
             <span id="hero_anchor"></span>
-            <div class='header-text-position-relative position-relative'>
+            
                 <div class='position-absolute'>
-                    <div class="header-text-box d-flex flex-column justify-content-center h-100 text-center gap-4 mx-2">
-                        <h1 class="heroPrimaryText">We Service Inland Empire and San Diego Areas</h1>
+                    <div class="header-text-box d-flex flex-column justify-content-center text-center gap-5">
+                        <h1 class="heroPrimaryText">We Service <br class="d-none d-md-inline"> Inland Empire <br class="d-md-none"> and San Diego Areas</h1>
                         <p class="heroSecondaryText">63,000+ lessons </br> 16 years+ in service. </p>
                     </div>
+                    <div class="container d-none d-md-block margin-bottom-5rem text-center mt-3">
+                        <a class="enrollmentLink" href=<?php echo '"' . site_url('/enrollment') . '"'; ?>> Enroll Now </a>
+                    </div>
                 </div>
-            </div>
+            
         </div>
 
-        <div class="container margin-bottom-5rem text-center mt-4">
+        <div class="container d-md-none margin-bottom-5rem text-center mt-4">
             <a class="enrollmentLink" href=<?php echo '"' . site_url('/enrollment') . '"'; ?>> Enroll Now </a>
         </div>
-        <div class='container'>
+        <div class='container mt-md-5'>
             <div class='row'>
                 <div class="col-md d-flex flex-column align-items-center">
                     <h2>CA DMV Approved</h2>
