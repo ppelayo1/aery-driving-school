@@ -6,7 +6,7 @@
                 <div class='margin-top-1pt6rem margin-left-2rem'>
                     <div class="float-start">
                         <img class="width-3rem" src=<?php echo '"' . get_template_directory_uri() . '/assets/images/phone-call.svg' . '"'; ?> alt="phone">
-                        <a href='' class="orange-red-color d-block mt-2">Learn More</a>
+                        <a href=<?php echo '"' . getEnrollmentLink() . '"'; ?> class="orange-red-color d-block mt-2">Learn More</a>
                     </div>
                     <ul class="ms-5 list-unstyled">
                         <li class='line-height-0pt5'> (951)201-7780</li>  

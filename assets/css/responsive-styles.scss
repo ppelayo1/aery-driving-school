@@ -2,6 +2,23 @@ $bootstrap-sm:576px;
 $bootstrap-md:768px;
 $bootstrap-lg:992px;
 
+@media only screen and (min-width:$bootstrap-sm){
+    body{
+        main{    
+            .heroHeader{
+                padding-bottom:36%;
+
+                .heroPrimaryText{
+                    font-size:2rem;
+                }
+                
+                .heroSecondaryText{
+                    font-size:1.5rem;
+                }
+            }
+        }
+    }
+}
 
 @media only screen and (min-width:$bootstrap-md){
     .width-md-17rem{
@@ -96,14 +113,6 @@ $bootstrap-lg:992px;
         main{
             .heroHeader{
                 padding-bottom:36%;
-
-                .heroPrimaryText{
-                    font-size:2rem;
-                }
-                
-                .heroSecondaryText{
-                    font-size:1.5rem;
-                }
             }
         }
         footer{
@@ -113,6 +122,10 @@ $bootstrap-lg:992px;
 }
 
 @media only screen and (min-width:$bootstrap-lg){
+    .font-size-lg-1pt5{
+        font-size:1.5rem;
+    }
+    
     body{
         main{
             .heroHeader{

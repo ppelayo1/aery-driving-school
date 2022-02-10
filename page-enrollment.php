@@ -1,3 +1,5 @@
+<?php /* Template Name: Enrollment */ ?>
+
 <?php get_header(); ?>
 <main>
     <div class="container mt-4">
@@ -6,17 +8,17 @@
             <img class='w-50' src=<?php echo '"' . get_template_directory_uri() . '/assets/images/carPersonPointing.jpg' . '"';?> alt="people in car pointing right">
             <div class="ms-3 display-grid">
                 <h1 class="d-none d-md-block">Limited Time</h1>
-                <p class="orange-red-color font-size-1pt4 mb-0 grid-row-start-2 align-self-center">$325*</p>
+                <p class="orange-red-color font-size-1pt4 mb-0 grid-row-start-2 align-self-center">$<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS);?>*</p>
                 <div class='grid-row-start-3 align-self-end'>
                 <p class="my-0 max-width-md-75">Three 2-hour Behind-The-Wheel Lessons</p>
                     <div class="container p-0 mt-4 d-none d-md-block">
-                        <a class="enrollmentLink" href=""> Enroll Now </a>
+                        <a class="btn btn-primary enrollmentLink enrollmentButtonColor" href=<?php echo '"' . getEnrollmentLink() . '"'; ?>> Enroll Now </a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container text-center mt-4 d-md-none">
-            <a class="enrollmentLink" href=""> Enroll Now </a>
+            <a class="btn btn-primary enrollmentLink enrollmentButtonColor" href=<?php echo '"' . getEnrollmentLink() . '"'; ?>> Enroll Now </a>
         </div>
     </div>
 
@@ -62,8 +64,8 @@
                                 <li>Three 2-Hour Lessons:</li>
                             </ul>
                             <ul class='list-unstyled'>
-                                <li class="font-weight-300 ms-3 ms-md-0">$325* <span class='font-weight-900'>&nbspteens</span></li>
-                                <li class="font-weight-300 ms-3 ms-md-0">$335**<span class="font-weight-900 ">adults</span></li>
+                                <li class="font-weight-300 ms-3 ms-md-0">$<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS);?>* <span class='font-weight-900'>&nbspteens</span></li>
+                                <li class="font-weight-300 ms-3 ms-md-0">$<?php echo get_theme_mod($TWO_HOUR_LESSONS_ADULTS);?>**<span class="font-weight-900 ">adults</span></li>
                             </ul>
                         </div>
                         <div class="d-flex flex-md-column">
@@ -80,7 +82,7 @@
                     <h3>Teen Online Driver Education</h3>
                     <ul class='d-flex list-unstyled flex-md-column'>
                         <li class='width-10rem width-md-17rem'>30-hour home study (Does not include DMV Certificate of Completion).  </li>
-                        <li class='font-weight-300 ms-3 ms-md-0 mt-md-3 align-self-center md-align-self-baseline'>$49</li>
+                        <li class='font-weight-300 ms-3 ms-md-0 mt-md-3 align-self-center md-align-self-baseline'>$<?php echo get_theme_mod($ONLINE_DRIVING_PRICE);?></li>
                     </ul>
                 </div>
                 <div class='mt-3'>
@@ -138,7 +140,7 @@
             </div>
 
             <div class='mt-5'>
-                <h2 class='text-center'>Contact Us</h2>
+                <h2 id='contactUs' class='text-center'>Contact Us</h2>
                 <div class='mt-3'>
                     <div class='d-flex flex-column flex-md-row justify-content-center align-items-center gap-md-16rem ms-md-5'>
                         <ul class='list-unstyled'>

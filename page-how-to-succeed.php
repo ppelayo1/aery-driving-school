@@ -1,3 +1,4 @@
+<?php /* Template Name: How to succeed */ ?>
 <?php get_header();?>
 
 <main>
@@ -37,7 +38,7 @@
                 </div>
         </div>
         <div class="container text-center mt-4">
-            <a class="enrollmentLink" href=""> Enroll Now </a>
+            <a class="btn btn-primary enrollmentLink enrollmentButtonColor" href=<?php echo '"' . getEnrollmentLink() . '"'; ?>> Enroll Now </a>
         </div>
     </div>
 </main>

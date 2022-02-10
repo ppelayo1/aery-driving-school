@@ -45,6 +45,23 @@ body{
         font-size:0.7rem;
     }
 
+    .enrollmentLink{
+        color:#F25A34;
+        font-size:1.5rem;
+        font-weight:900;
+        font-style:italic;
+        text-decoration: none;
+    }
+
+    .enrollmentButtonColor{
+        background-color: $clearBlue;
+        border-color: $clearBlue;
+    }
+
+    .shadeBackground{
+        background:$lightBlue;
+    }
+
     header{
         border-bottom:solid 2px black;
         min-height:3rem;
@@ -53,7 +70,7 @@ body{
             left:15%;
             bottom:0.5em;
         }
-        .header-background{
+        .header-nav-bar{
             background:$darkerBlue2;
         }
         .custom-logo-link{
@@ -91,19 +108,6 @@ body{
             }
         }
     }
-
-    .enrollmentLink{
-        color:#F25A34;
-        font-size:1.5rem;
-        font-weight:900;
-        font-style:italic;
-        text-decoration: none;
-    }
-
-    .shadeBackground{
-        background:$lightBlue;
-    }
-
     footer{
         margin-top:6.8rem;
         background: linear-gradient(180deg, $lightBlue $gradiant1, $darkerBlue $gradiant2, $transitionBlue $gradiant3, $black $gradiant4);
