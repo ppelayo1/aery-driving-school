@@ -33,7 +33,7 @@
                     <ul class="width-15rem">
                         <li><span class="orange-red-color font-weight-900">LIMITED TIME</span></br>6 Hour Behind-The-Wheel starting $<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS);?> for teens</li>
                         <li>Online Driving Lessons $<?php echo get_theme_mod($ONLINE_DRIVING_PRICE);?></li>
-                        <li>Rent a Qualified Car for the DMV Driving Test starting $110</li>    
+                        <li>Rent a Qualified Car for the DMV Driving Test starting $<?php echo get_theme_mod($CAR_RENTAL);?></li>    
                     <ul>
                 </div>
             </div>

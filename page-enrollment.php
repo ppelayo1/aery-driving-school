@@ -73,7 +73,7 @@
                                 <li>One 2-Hour** Lesson:</li>
                             </ul>
                             <ul class='list-unstyled'>
-                                <li class='font-weight-300 ms-3 ms-md-0'>$125*</li>
+                                <li class='font-weight-300 ms-3 ms-md-0'>$<?php echo get_theme_mod($TWO_HOUR_LESSON);?>*</li>
                             </ul>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                     <h3>Car Rental</h3>
                     <ul class='d-flex flex-md-column list-unstyled'>
                         <li class='width-10rem'>Pick up and Drop off for the DMV Test </li>
-                        <li class='font-weight-300 ms-3 ms-md-0 mt-md-3 align-self-center md-align-self-baseline'>$150</li>
+                        <li class='font-weight-300 ms-3 ms-md-0 mt-md-3 align-self-center md-align-self-baseline'>$<?php echo get_theme_mod($CAR_RENTAL);?></li>
                     </ul>
                 </div>
             </div>

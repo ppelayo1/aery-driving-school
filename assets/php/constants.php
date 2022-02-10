@@ -9,3 +9,5 @@ $HEADER_MENU = 'header-menu';
 $TWO_HOUR_LESSONS_ADULTS = 'three-two-hour-lessons-adults';
 $TWO_HOUR_LESSONS_TEENS = 'three-two-hour-lessons-teens';
 $ONLINE_DRIVING_PRICE = 'online-driving-price';
+$TWO_HOUR_LESSON = 'two-hour-lesson';
+$CAR_RENTAL = 'car-rental';
