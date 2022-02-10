@@ -10,7 +10,7 @@ function adultsThreeTwoHours($wp_customize){
     $wp_customize->add_section( 'three-two-hour-lessons-section' , array(
         'title'      => 'Driving Lessons',
         'priority'   => 30,
-        'panel' => 'price_panel',
+        'panel' => $GLOBALS['PRICE_PANEL'],
     ) );
 
     $wp_customize->add_control( $GLOBALS['TWO_HOUR_LESSONS_ADULTS'], array(

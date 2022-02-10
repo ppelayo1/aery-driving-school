@@ -139,6 +139,54 @@
                 </div>
             </div>
 
+            <div class='container max-width-md-75 mt-5'>
+                <h2 class='text-center'>Important Information</h2>
+                <div>
+                    <p class='mt-5'>Dear Students,</p>
+                    <p>
+                        Thank you for enrolling with Aery Driving School driver training program.
+                        In order to make your relationship with our school a successful one, we want you 
+                        to have the information necessary to complete your program and meet all of the 
+                        DMV requirments in order to attain your driver’s license.
+                    </p>
+                    <p class='mt-5 mt-md-0'><strong>To obtain a permit, you must bring these documents to the DMV</strong></p>
+                    <ul class='ms-md-3'>
+                        <li>Certificate of Completion of Driver's Ed</li>
+                        <li>Birth Certificate</li>
+                        <li>Social Security Card</li>
+                        <li>DL44 application with yourparents or guardian signatures</li>
+                        <li>2 Fomrs of proof of address</li>
+                    </ul>
+                    <p class='mt-5'>
+                        Call as soon as you receive your permit so that we can schedule your first lesson with an instructor. 
+                        The earlier you let us  know about receiving your permit, the sooner we can schedule your first 
+                        behind-the-wheel appointment.
+                    </p>
+                    <h3 class='mt-4'>Behind-The-Wheel Instructions</h3>
+                    <p>
+                        All Behind-The-Wheel lessons are private one-on-one 2-hour sessions. Lessons may not be scheduled until 
+                        the student has obtained the permit. The DMV requires teenagers to take three 2-hour lessons with a licensed
+                         Driving School Instructor.
+                    </p>
+                    <p>
+                        The cost of a single 2 hour Behind-The-Wheel lesson is $<?php echo get_theme_mod($TWO_HOUR_LESSON);?>. We have a discounted package of 6 hours Behind-The-Wheel lessons for 
+                        $<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS);?>. If you buy the discounted package, any refund after the first lesson will be minus $110.00 for each 2 hour Behind-The-Wheel lesson taken.
+                    </p>
+                    <p>
+                        A $35.00 enrollment processing fee is included in your payment. Any refunds would be $25.00 minus enrollment-processing fee from the total amount. 
+                        Refunds must be requested within 30 days of purchase.
+                    </p>
+                    <h3 class='mt-4'>Lost Certificate Policy</h3>
+                    <p>
+                        There is one DMV certificate you will get when you complete all of your training with our school. There is a $10.00 charge for a duplicate certificate of lost or stolen.
+                    </p>
+                    <ul class='ms-md-3'>
+                        <li>The State of California DMV Certificate of Completion of Behind-The-Wheel training from your instructor. You must bring this certificate to the DMV to take the road test if you are under 18 years of age.</li>
+                    </ul>
+                </div>
+
+            </div>
+
             <div class='mt-5'>
                 <h2 id='contactUs' class='text-center'>Contact Us</h2>
                 <div class='mt-3'>
