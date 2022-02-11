@@ -17,10 +17,11 @@
         <div class='p-md-2 me-5'>
             <?php echo getLogo(); ?>
         </div>
-        <img class="width-2rem d-md-none" alt="hamburger-menu" src=<?php echo '"' . get_template_directory_uri() . '/assets/images/hamburger-menu.svg"';?>>
+        <img class="hamburger-icon width-2rem d-md-none" alt="hamburger-menu" src=<?php echo '"' . get_template_directory_uri() . '/assets/images/hamburger-menu.svg"';?>>
         <div class='header-nav-bar w-100 d-none d-md-flex justify-content-end align-items-center pe-2'>
             <?php wp_nav_menu( array( 'theme_location' => $GLOBALS['HEADER_MENU'],  'menu_class' => 'mb-0 me-0 me-lg-5 fst-italic font-size-1rem font-size-lg-1pt5 font-weight-300 list-unstyled d-flex gap-4 child-anchor white-child-anchor' ) );?>
         </div>
     </header>
+    <?php include_once(get_template_directory() . '/assets/templates/slide-out-nav-bar.php'); ?>
 <body>
     

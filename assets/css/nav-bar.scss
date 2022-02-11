@@ -1,0 +1,21 @@
+.slide-out-nav-bar{
+    width:60vw;
+    height:110vh;
+    position:fixed;
+    background:$darkerBlue; 
+    z-index:1000;
+    top:0;
+
+    ul{
+        line-height:2;
+    }
+}
+
+.hide-nav-bar{
+    transform:translate3d(-61vw, 0, 0);
+    transition: transform .5s cubic-bezier(0, .52, 0, 1);
+}
+
+.show-nav-bar{
+    transform:translate3d(0vw, 0, 0);
+}
