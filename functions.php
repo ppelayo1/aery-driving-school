@@ -5,6 +5,7 @@ include_once(get_template_directory() . '/assets/php/enqueueStyleSheets.php');
 include_once(get_template_directory() . '/assets/php/enqueueScripts.php');
 include_once(get_template_directory() . '/assets/php/registerMenus.php');
 include_once(get_template_directory() . '/assets/php/getEnrollmentLink.php');
+include_once(get_template_directory() . '/assets/php/getImportantInfoLink.php');
 include_once(get_template_directory() . '/assets/php/customizer/backgroundCustomizer.php');
 include_once(get_template_directory() . '/assets/php/customizer/pricesCustomizer.php');
 include_once(get_template_directory() . '/assets/php/customizer/otherFees.php');

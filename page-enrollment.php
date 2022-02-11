@@ -142,7 +142,7 @@
             </div>
 
             <div class='container max-width-md-75 mt-5'>
-                <h2 class='text-center'>Important Information</h2>
+                <h2 id='important-information' class='text-center'>Important Information</h2>
                 <div>
                     <p class='mt-5'>Dear Students,</p>
                     <p>
