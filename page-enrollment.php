@@ -9,7 +9,7 @@
             <img class='w-50' src=<?php echo '"'. get_theme_mod($GLOBALS['LIMITED_TIME_IMAGE'])  . '"'; ?> alt="people in car pointing right">
             <div class="ms-3 display-grid">
                 <h1 class="d-none d-md-block">Limited Time</h1>
-                <p class="orange-red-color font-size-1pt4 mb-0 grid-row-start-2 align-self-center">$<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS);?>*</p>
+                <p class="orange-red-color limited-time-price mb-0 grid-row-start-2 align-self-center">$<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS);?>*</p>
                 <div class='grid-row-start-3 align-self-end'>
                 <p class="my-0 max-width-md-75">Three 2-hour Behind-The-Wheel Lessons</p>
                     <div class="container p-0 mt-4 d-none d-md-block">

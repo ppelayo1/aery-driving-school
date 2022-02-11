@@ -4,6 +4,9 @@ $bootstrap-lg:992px;
 
 @media only screen and (min-width:$bootstrap-sm){
     body{
+        .limited-time-price{
+            font-size:2rem;
+        }
         main{    
             .heroHeader{
                 padding-bottom:36%;
