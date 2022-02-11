@@ -9,7 +9,7 @@ function background_customizer( $wp_customize ) {
 
     $wp_customize->add_section( 'hero_background_section' , array(
         'title'      => __( 'Hero Header Background', 'mytheme' ),
-        'priority'   => 30,
+        'priority'   => 29,
     ) );
 
     $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'link_color', array(

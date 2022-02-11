@@ -5,7 +5,8 @@
     <div class="container mt-4">
         <h1 class="text-center d-md-none">Limited Time</h1>
         <div class="d-flex mt-3 justify-content-center">
-            <img class='w-50' src=<?php echo '"' . get_template_directory_uri() . '/assets/images/carPersonPointing.jpg' . '"';?> alt="people in car pointing right">
+            <span id='enrollment-image'></span>
+            <img class='w-50' src=<?php echo '"'. get_theme_mod($GLOBALS['LIMITED_TIME_IMAGE'])  . '"'; ?> alt="people in car pointing right">
             <div class="ms-3 display-grid">
                 <h1 class="d-none d-md-block">Limited Time</h1>
                 <p class="orange-red-color font-size-1pt4 mb-0 grid-row-start-2 align-self-center">$<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS);?>*</p>
@@ -99,7 +100,8 @@
     <div class='container mt-5'>
         <div class='d-flex flex-column align-items-center'>
             <h2>Start Your First Mile Today</h2>
-            <img class='mt-4 width-16rem width-md-30rem' src=<?php echo '"' . get_template_directory_uri() . '/assets/images/carDrivingAway.jpg' . '"'; ?>>
+            <span id='start-first-mile-image'></span>
+            <img class='mt-4 width-16rem width-md-30rem' src=<?php echo '"'. get_theme_mod($GLOBALS['START_YOUR_FIRST_MILE_IMAGE'])  . '"'; ?>>
         </div>
 
         <div class='d-flex flex-column align-items-center mt-5'>
@@ -170,15 +172,15 @@
                     </p>
                     <p>
                         The cost of a single 2 hour Behind-The-Wheel lesson is $<?php echo get_theme_mod($TWO_HOUR_LESSON);?>. We have a discounted package of 6 hours Behind-The-Wheel lessons for 
-                        $<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS);?>. If you buy the discounted package, any refund after the first lesson will be minus $110.00 for each 2 hour Behind-The-Wheel lesson taken.
+                        $<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS);?>. If you buy the discounted package, any refund after the first lesson will be minus $<?php echo get_theme_mod($REFUND_REDUCED_PER_LESSON);?> for each 2 hour Behind-The-Wheel lesson taken.
                     </p>
                     <p>
-                        A $35.00 enrollment processing fee is included in your payment. Any refunds would be $25.00 minus enrollment-processing fee from the total amount. 
+                        A $<?php echo get_theme_mod($ENROLLMENT_PROCESSING_FEE);?> enrollment processing fee is included in your payment. Any refunds would be $<?php echo get_theme_mod($NON_REFUNDABLE_PROCESSING_FEE);?> minus enrollment-processing fee from the total amount. 
                         Refunds must be requested within 30 days of purchase.
                     </p>
                     <h3 class='mt-4'>Lost Certificate Policy</h3>
                     <p>
-                        There is one DMV certificate you will get when you complete all of your training with our school. There is a $10.00 charge for a duplicate certificate of lost or stolen.
+                        There is one DMV certificate you will get when you complete all of your training with our school. There is a $<?php echo get_theme_mod($CERTIFICATE_REPLACEMENT_FEE);?> charge for a duplicate certificate of lost or stolen.
                     </p>
                     <ul class='ms-md-3'>
                         <li>The State of California DMV Certificate of Completion of Behind-The-Wheel training from your instructor. You must bring this certificate to the DMV to take the road test if you are under 18 years of age.</li>
