@@ -23,7 +23,7 @@ function adultsThreeTwoHours($wp_customize){
 
 function teensThreeTwoHours($wp_customize){
     $wp_customize->add_setting( $GLOBALS['TWO_HOUR_LESSONS_TEENS'] , array(
-        'default'   => '325',
+        'default'   => '249',
         'transport' => 'refresh',
     ) );
 
@@ -37,7 +37,7 @@ function teensThreeTwoHours($wp_customize){
 
 function twoHourLesson($wp_customize){
     $wp_customize->add_setting( $GLOBALS['TWO_HOUR_LESSON'] , array(
-        'default'   => '125',
+        'default'   => '110',
         'transport' => 'refresh',
     ) );
 
