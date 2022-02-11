@@ -22,6 +22,7 @@ $CERTIFICATE_REPLACEMENT_FEE = 'certificate_replacement_fee';
 //image replacements
 $LIMITED_TIME_IMAGE = 'limited_time_image';
 $START_YOUR_FIRST_MILE_IMAGE = 'start_your_first_mile_image';
+$USEFUL_INFORMATION_IMAGE = 'useful_information_image';
 
 //customizer new panels
 $PRICE_PANEL = 'price_panel';

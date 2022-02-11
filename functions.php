@@ -11,6 +11,7 @@ include_once(get_template_directory() . '/assets/php/customizer/pricesCustomizer
 include_once(get_template_directory() . '/assets/php/customizer/otherFees.php');
 include_once(get_template_directory() . '/assets/php/customizer/enrollmentLimitedTime.php');
 include_once(get_template_directory() . '/assets/php/customizer/startYourFirstMile.php');
+include_once(get_template_directory() . '/assets/php/customizer/usefulInformation.php');
 
 add_theme_support( 'customize-selective-refresh-widgets' );
 add_theme_support( 'custom-logo' );

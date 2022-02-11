@@ -7,7 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta name='description' content=<?php echo "'" . get_bloginfo( 'description' ) . "'" ?>>
     
-    <title><?php bloginfo('name')?></title>
+    <title><?php echo is_home() ? bloginfo('name') :  get_the_title();?></title>
     
 
                 
