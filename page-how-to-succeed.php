@@ -29,12 +29,7 @@
                     <h3 class='mt-4 mt-md-0'>DMV Educational Materials</h3>
                     <p>Take advantage of the links below from the DMV</p>
                     <div class='ms-md-5'>
-                        <ul class='list-unstyled line-height-2'>
-                            <li><a href=''>DMV HandBooks</a></li>
-                            <li><a href=''>Practice Tests(Written)</a></li>
-                            <li><a href=''>Videos</a></li>
-                            <li><a href=''>And More</a></li>
-                        </ul>
+                    <?php wp_nav_menu( array( 'theme_location' => $GLOBALS['HOW_TO_SUCCEED_LINKS_MENU'], 'menu_class' => 'line-height-2 list-unstyled width-md-17rem width-8rem' ) );?>
                     </div>
                 </div>
         </div>

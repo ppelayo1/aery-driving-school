@@ -19,7 +19,7 @@
             <div class="col-md margin-top-3rem clear-blue-color white-md-color">
                 <div class='d-flex align-items-center flex-column'>
                     <h3>Site Map </h3>
-                    <?php wp_nav_menu( array( 'theme_location' => $GLOBALS['FOOTER_MENU'], 'menu_class' => 'line-height-2 list-unstyled font-weight-300 clear-blue-child-anchor white-child-md-anchor width-11rem child-anchor' ) );?>
+                    <?php wp_nav_menu( array( 'theme_location' => $GLOBALS['FOOTER_MENU'], 'menu_class' => 'line-height-2 list-unstyled width-17rem margin-left-7rem font-weight-300 clear-blue-child-anchor white-child-md-anchor child-anchor' ) );?>
                 </div>
             </div>
         
@@ -29,7 +29,7 @@
             <div class="col-md margin-top-3rem white-color">
                 <div class='d-flex align-items-center flex-column'>
                     <h3>Useful Links </h3>
-                    <?php wp_nav_menu( array( 'theme_location' => $GLOBALS['FOOTER_USEFUL_LINKS'], 'menu_class' => 'line-height-2 list-unstyled font-weight-300 white-child-anchor width-11rem child-anchor' ) );?>
+                    <?php wp_nav_menu( array( 'theme_location' => $GLOBALS['FOOTER_USEFUL_LINKS'], 'menu_class' => 'line-height-2 width-17rem margin-left-7rem list-unstyled font-weight-300 white-child-anchor child-anchor' ) );?>
                 </div>
             </div>
         </div>

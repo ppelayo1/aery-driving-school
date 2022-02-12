@@ -4,6 +4,7 @@
 $FOOTER_USEFUL_LINKS="footer-external";
 $FOOTER_MENU= "footer-menu";
 $HEADER_MENU = 'header-menu';
+$HOW_TO_SUCCEED_LINKS_MENU = 'how-to-succeed-links-menu';
 
 //customizer ids
 //Prices
