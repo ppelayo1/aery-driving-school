@@ -8,7 +8,7 @@
                         <p class="heroSecondaryText mb-0">63,000+ lessons </br> 16 years+ in service. </p>
                     </div>
                     <div class="container d-none d-md-block margin-bottom-5rem text-center mt-md-2 mt-lg-3">
-                        <a class="enrollmentLink" href=<?php echo '"' . getEnrollmentLink() . '"'; ?>> Enroll Now </a>
+                        <a class="enrollmentLink orange-red-md-color" href=<?php echo '"' . getEnrollmentLink() . '"'; ?>> Enroll Now </a>
                     </div>
                 </div>
             

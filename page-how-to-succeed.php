@@ -24,7 +24,9 @@
         <h2 class='text-center'>Useful Information</h2>
         <div class='d-flex flex-column gap-md-5 flex-md-row align-items-center md-align-items-inherit justify-content-center mt-3'>
             <span id='useful-information-image'></span>
-            <img class='width-16rem width-md-21rem height-md-15rem' src=<?php echo getImageUrl($GLOBALS['USEFUL_INFORMATION_IMAGE'], $USEFUL_INFORMATION_DEFAULT); ?> alt='lightBulb'>
+            <div>
+                <img class='width-16rem width-md-21rem height-md-15rem' src=<?php echo getImageUrl($GLOBALS['USEFUL_INFORMATION_IMAGE'], $USEFUL_INFORMATION_DEFAULT); ?> alt='lightBulb'>
+            </div>
                 <div class='width-17rem width-md-19rem d-flex flex-column align-items-center'>
                     <h3 class='mt-4 mt-md-0'>DMV Educational Materials</h3>
                     <p>Take advantage of the links below from the DMV</p>
