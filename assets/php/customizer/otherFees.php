@@ -4,7 +4,7 @@
 
 function refundReducedPerLesson($wp_customize){
     $wp_customize->add_setting( $GLOBALS['REFUND_REDUCED_PER_LESSON'] , array(
-        'default'   => '110',
+        'default'   => $GLOBALS['REFUND_REDUCED_PER_LESSON_DEFAULT'],
         'transport' => 'refresh',
     ) );
 
@@ -24,7 +24,7 @@ function refundReducedPerLesson($wp_customize){
 
 function refundEnrollmentProcessingFee($wp_customize){
     $wp_customize->add_setting( $GLOBALS['NON_REFUNDABLE_PROCESSING_FEE'] , array(
-        'default'   => '25',
+        'default'   => $GLOBALS['NON_REFUNDABLE_PROCESSING_FEE_DEFAULT'],
         'transport' => 'refresh',
     ) );
 
@@ -38,7 +38,7 @@ function refundEnrollmentProcessingFee($wp_customize){
 
 function enrollmentFee($wp_customize){
     $wp_customize->add_setting( $GLOBALS['ENROLLMENT_PROCESSING_FEE'] , array(
-        'default'   => '35',
+        'default'   => $GLOBALS['ENROLLMENT_PROCESSING_FEE_DEFAULT'],
         'transport' => 'refresh',
     ) );
 
@@ -52,7 +52,7 @@ function enrollmentFee($wp_customize){
 
 function lostCertificateReplacement($wp_customize){
     $wp_customize->add_setting( $GLOBALS['CERTIFICATE_REPLACEMENT_FEE'] , array(
-        'default'   => '10',
+        'default'   => $GLOBALS['CERTIFICATE_REPLACEMENT_FEE_DEFAULT'],
         'transport' => 'refresh',
     ) );
 

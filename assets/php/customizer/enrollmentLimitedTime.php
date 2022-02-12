@@ -10,9 +10,8 @@ function enrollmentLimitedTime( $wp_customize ) {
     );
 
     $wp_customize->add_setting( $GLOBALS['LIMITED_TIME_IMAGE'] , array(
-        'default'   => '10',
         'transport' => 'refresh',
-        'default'   => get_template_directory_uri() . '/assets/images/carPersonPointing.jpg',
+        'default'   => $GLOBALS['LIMITED_TIME_IMAGE_DEFAULT']
     ) );
 
     $wp_customize->add_section( 'enrollment-page-section' , array(

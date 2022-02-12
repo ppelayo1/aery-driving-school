@@ -3,7 +3,7 @@
 function background_customizer( $wp_customize ) {
     //All our sections, settings, and controls will be added here
     $wp_customize->add_setting( 'hero_background' , array(
-        'default'   => get_template_directory_uri() . '/assets/images/heroHeader.jpg',
+        'default'   => $GLOBALS['HEADER_BACKGROUND_IMAGE_DEFAULT'],
         'transport' => 'refresh',
     ) );
 
@@ -26,11 +26,12 @@ function background_customizer( $wp_customize ) {
  add_action( 'customize_register', 'background_customizer' );
 	
  function mytheme_customize_css()
-{
+{   
     ?>
          <style type="text/css">
              .heroHeader{
-                background-image: url(<?php echo '"'. get_theme_mod('hero_background','test')  . '"'; ?>);
+                 background: url(<?php echo getImageUrl('hero_background',$GLOBALS['HEADER_BACKGROUND_IMAGE_DEFAULT']);?>);
+
              }
          </style>
     <?php

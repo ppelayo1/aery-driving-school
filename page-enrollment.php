@@ -6,10 +6,10 @@
         <h1 class="text-center d-md-none">Limited Time</h1>
         <div class="d-flex mt-3 justify-content-center">
             <span id='enrollment-image'></span>
-            <img class='w-50' src=<?php echo '"'. get_theme_mod($GLOBALS['LIMITED_TIME_IMAGE'])  . '"'; ?> alt="people in car pointing right">
+            <img class='w-50' src=<?php echo getImageUrl($GLOBALS['LIMITED_TIME_IMAGE'],$GLOBALS['LIMITED_TIME_IMAGE_DEFAULT']);?> alt="people in car pointing right">
             <div class="ms-3 display-grid">
                 <h1 class="d-none d-md-block">Limited Time</h1>
-                <p class="orange-red-color limited-time-price mb-0 grid-row-start-2 align-self-center">$<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS);?>*</p>
+                <p class="orange-red-color limited-time-price mb-0 grid-row-start-2 align-self-center">$<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS, $GLOBALS['THREE_TWO_HOUR_LESSONS_TEENS_DEFAULT']);?>*</p>
                 <div class='grid-row-start-3 align-self-end'>
                 <p class="my-0 max-width-md-75">Three 2-hour Behind-The-Wheel Lessons</p>
                     <div class="container p-0 mt-4 d-none d-md-block">
@@ -65,8 +65,8 @@
                                 <li>Three 2-Hour Lessons:</li>
                             </ul>
                             <ul class='list-unstyled'>
-                                <li class="font-weight-300 ms-3 ms-md-0">$<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS);?>* <span class='font-weight-900'>&nbspteens</span></li>
-                                <li class="font-weight-300 ms-3 ms-md-0">$<?php echo get_theme_mod($TWO_HOUR_LESSONS_ADULTS);?>**<span class="font-weight-900 ">adults</span></li>
+                                <li class="font-weight-300 ms-3 ms-md-0">$<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS, $GLOBALS['THREE_TWO_HOUR_LESSONS_TEENS_DEFAULT']);?>* <span class='font-weight-900'>&nbspteens</span></li>
+                                <li class="font-weight-300 ms-3 ms-md-0">$<?php echo get_theme_mod($TWO_HOUR_LESSONS_ADULTS, $GLOBALS['THREE_TWO_HOUR_LESSONS_ADULTS_DEFAULT']);?>**<span class="font-weight-900 ">adults</span></li>
                             </ul>
                         </div>
                         <div class="d-flex flex-md-column">
@@ -74,7 +74,7 @@
                                 <li>One 2-Hour** Lesson:</li>
                             </ul>
                             <ul class='list-unstyled'>
-                                <li class='font-weight-300 ms-3 ms-md-0'>$<?php echo get_theme_mod($TWO_HOUR_LESSON);?>*</li>
+                                <li class='font-weight-300 ms-3 ms-md-0'>$<?php echo get_theme_mod($TWO_HOUR_LESSON, $GLOBALS['TWO_HOUR_LESSON_DEFAULT']);?>*</li>
                             </ul>
                         </div>
                     </div>
@@ -83,14 +83,14 @@
                     <h3>Teen Online Driver Education</h3>
                     <ul class='d-flex list-unstyled flex-md-column'>
                         <li class='width-10rem width-md-17rem'>30-hour home study (Does not include DMV Certificate of Completion).  </li>
-                        <li class='font-weight-300 ms-3 ms-md-0 mt-md-3 align-self-center md-align-self-baseline'>$<?php echo get_theme_mod($ONLINE_DRIVING_PRICE);?></li>
+                        <li class='font-weight-300 ms-3 ms-md-0 mt-md-3 align-self-center md-align-self-baseline'>$<?php echo get_theme_mod($ONLINE_DRIVING_PRICE, $ONLINE_DRIVING_LESSONS_DEFAULT);?></li>
                     </ul>
                 </div>
                 <div class='mt-3'>
                     <h3>Car Rental</h3>
                     <ul class='d-flex flex-md-column list-unstyled'>
                         <li class='width-10rem'>Pick up and Drop off for the DMV Test </li>
-                        <li class='font-weight-300 ms-3 ms-md-0 mt-md-3 align-self-center md-align-self-baseline'>$<?php echo get_theme_mod($CAR_RENTAL);?></li>
+                        <li class='font-weight-300 ms-3 ms-md-0 mt-md-3 align-self-center md-align-self-baseline'>$<?php echo get_theme_mod($CAR_RENTAL, $CAR_RENTAL_DEFAULT);?></li>
                     </ul>
                 </div>
             </div>
@@ -101,7 +101,7 @@
         <div class='d-flex flex-column align-items-center'>
             <h2>Start Your First Mile Today</h2>
             <span id='start-first-mile-image'></span>
-            <img class='mt-4 width-16rem width-md-30rem' src=<?php echo '"'. get_theme_mod($GLOBALS['START_YOUR_FIRST_MILE_IMAGE'])  . '"'; ?>>
+            <img class='mt-4 width-16rem width-md-30rem' src=<?php echo getImageUrl($GLOBALS['START_YOUR_FIRST_MILE_IMAGE'], $FIRST_MILE_IMAGE_DEFAULT); ?>>
         </div>
 
         <div class='d-flex flex-column align-items-center mt-5'>
@@ -171,16 +171,16 @@
                          Driving School Instructor.
                     </p>
                     <p>
-                        The cost of a single 2 hour Behind-The-Wheel lesson is $<?php echo get_theme_mod($TWO_HOUR_LESSON);?>. We have a discounted package of 6 hours Behind-The-Wheel lessons for 
-                        $<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS);?>. If you buy the discounted package, any refund after the first lesson will be minus $<?php echo get_theme_mod($REFUND_REDUCED_PER_LESSON);?> for each 2 hour Behind-The-Wheel lesson taken.
+                        The cost of a single 2 hour Behind-The-Wheel lesson is $<?php echo get_theme_mod($TWO_HOUR_LESSON, $TWO_HOUR_LESSON_DEFAULT);?>. We have a discounted package of 6 hours Behind-The-Wheel lessons for 
+                        $<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS, $THREE_TWO_HOUR_LESSONS_TEENS_DEFAULT);?>. If you buy the discounted package, any refund after the first lesson will be minus $<?php echo get_theme_mod($REFUND_REDUCED_PER_LESSON, $REFUND_REDUCED_PER_LESSON_DEFAULT);?> for each 2 hour Behind-The-Wheel lesson taken.
                     </p>
                     <p>
-                        A $<?php echo get_theme_mod($ENROLLMENT_PROCESSING_FEE);?> enrollment processing fee is included in your payment. Any refunds would be $<?php echo get_theme_mod($NON_REFUNDABLE_PROCESSING_FEE);?> minus enrollment-processing fee from the total amount. 
+                        A $<?php echo get_theme_mod($ENROLLMENT_PROCESSING_FEE, $ENROLLMENT_PROCESSING_FEE_DEFAULT);?> enrollment processing fee is included in your payment. Any refunds would be $<?php echo get_theme_mod($NON_REFUNDABLE_PROCESSING_FEE, $NON_REFUNDABLE_PROCESSING_FEE_DEFAULT);?> minus enrollment-processing fee from the total amount. 
                         Refunds must be requested within 30 days of purchase.
                     </p>
                     <h3 class='mt-4'>Lost Certificate Policy</h3>
                     <p>
-                        There is one DMV certificate you will get when you complete all of your training with our school. There is a $<?php echo get_theme_mod($CERTIFICATE_REPLACEMENT_FEE);?> charge for a duplicate certificate of lost or stolen.
+                        There is one DMV certificate you will get when you complete all of your training with our school. There is a $<?php echo get_theme_mod($CERTIFICATE_REPLACEMENT_FEE, $CERTIFICATE_REPLACEMENT_FEE_DEFAULT);?> charge for a duplicate certificate of lost or stolen.
                     </p>
                     <ul class='ms-md-3'>
                         <li>The State of California DMV Certificate of Completion of Behind-The-Wheel training from your instructor. You must bring this certificate to the DMV to take the road test if you are under 18 years of age.</li>

@@ -3,7 +3,7 @@
 function adultsThreeTwoHours($wp_customize){
     //All our sections, settings, and controls will be added here
     $wp_customize->add_setting( $GLOBALS['TWO_HOUR_LESSONS_ADULTS'] , array(
-        'default'   => '335',
+        'default'   => $GLOBALS['THREE_TWO_HOUR_LESSONS_ADULTS_DEFAULT'],
         'transport' => 'refresh',
     ) );
 
@@ -23,7 +23,7 @@ function adultsThreeTwoHours($wp_customize){
 
 function teensThreeTwoHours($wp_customize){
     $wp_customize->add_setting( $GLOBALS['TWO_HOUR_LESSONS_TEENS'] , array(
-        'default'   => '249',
+        'default'   => $GLOBALS['THREE_TWO_HOUR_LESSONS_TEENS_DEFAULT'],
         'transport' => 'refresh',
     ) );
 
@@ -37,7 +37,7 @@ function teensThreeTwoHours($wp_customize){
 
 function twoHourLesson($wp_customize){
     $wp_customize->add_setting( $GLOBALS['TWO_HOUR_LESSON'] , array(
-        'default'   => '110',
+        'default'   => $GLOBALS['TWO_HOUR_LESSON_DEFAULT'],
         'transport' => 'refresh',
     ) );
 
@@ -51,7 +51,7 @@ function twoHourLesson($wp_customize){
 
 function onlineDrivingLessons($wp_customize){
     $wp_customize->add_setting( $GLOBALS['ONLINE_DRIVING_PRICE'] , array(
-        'default'   => '49',
+        'default'   => $GLOBALS['ONLINE_DRIVING_LESSONS_DEFAULT'],
         'transport' => 'refresh',
     ) );
 
@@ -72,7 +72,7 @@ function onlineDrivingLessons($wp_customize){
 function carRental($wp_customize){
     //All our sections, settings, and controls will be added here
     $wp_customize->add_setting( $GLOBALS['CAR_RENTAL'] , array(
-        'default'   => '150',
+        'default'   => $GLOBALS['CAR_RENTAL_DEFAULT'],
         'transport' => 'refresh',
     ) );
 
