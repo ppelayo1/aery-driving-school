@@ -52,9 +52,9 @@
         <div>
             <h2 class='text-center'>Our Prices</h2>
             <ul class="list-unstyled line-height-1 margin-left-17rem">
-                <li><small>*We do not serve rural areas.</small></li>
-                <li><small>*If applicable.</small></li>
-                <li><small>**Single lesson and/or car rental</br> must be paid in cash(zillow,paypall).</small></li>
+				<li><small>*Starting Price.</small></li>
+                <li><small>**We do not serve rural areas.</small></li>
+                <li><small>***Single lesson and/or car rental</br> must be paid in cash(zillow,paypall).</small></li>
             </ul>
             <div class='d-md-flex justify-content-center gap-md-5'>
                 <div class='mt-3'>
@@ -66,12 +66,12 @@
                             </ul>
                             <ul class='list-unstyled'>
                                 <li class="font-weight-300 ms-3 ms-md-0">$<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS, $GLOBALS['THREE_TWO_HOUR_LESSONS_TEENS_DEFAULT']);?>* <span class='font-weight-900'>&nbspteens</span></li>
-                                <li class="font-weight-300 ms-3 ms-md-0">$<?php echo get_theme_mod($TWO_HOUR_LESSONS_ADULTS, $GLOBALS['THREE_TWO_HOUR_LESSONS_ADULTS_DEFAULT']);?>**<span class="font-weight-900 ">adults</span></li>
+                                <li class="font-weight-300 ms-3 ms-md-0">$<?php echo get_theme_mod($TWO_HOUR_LESSONS_ADULTS, $GLOBALS['THREE_TWO_HOUR_LESSONS_ADULTS_DEFAULT']);?>*<span class="font-weight-900 ">&nbspadults</span></li>
                             </ul>
                         </div>
                         <div class="d-flex flex-md-column">
                             <ul class="list-unstyled width-10rem">
-                                <li>One 2-Hour** Lesson:</li>
+                                <li>One 2-Hour Lesson:</li>
                             </ul>
                             <ul class='list-unstyled'>
                                 <li class='font-weight-300 ms-3 ms-md-0'>$<?php echo get_theme_mod($TWO_HOUR_LESSON, $GLOBALS['TWO_HOUR_LESSON_DEFAULT']);?>*</li>
@@ -90,7 +90,7 @@
                     <h3>Car Rental</h3>
                     <ul class='d-flex flex-md-column list-unstyled'>
                         <li class='width-10rem'>Pick up and Drop off for the DMV Test </li>
-                        <li class='font-weight-300 ms-3 ms-md-0 mt-md-3 align-self-center md-align-self-baseline'>$<?php echo get_theme_mod($CAR_RENTAL, $CAR_RENTAL_DEFAULT);?></li>
+                        <li class='font-weight-300 ms-3 ms-md-0 mt-md-3 align-self-center md-align-self-baseline'>$<?php echo get_theme_mod($CAR_RENTAL, $CAR_RENTAL_DEFAULT);?>*</li>
                     </ul>
                 </div>
             </div>
@@ -122,7 +122,7 @@
                     <li>We will pick you up and return you.</li>
                     <li>Lessons will focus on areas that you need improvement.</li>
                     <li>Next lesson can be scheduled as soon as the next day, and we offer 7 days a week 7am-7pm.*</li>
-                    <li>If student is a minor the DMV 6 Hour Certificate of Completion will be issued after the completion of the 3rd driving lesson.****</li>
+                    <li>If student is a minor the DMV 6 Hour Certificate of Completion will be issued after the completion of the 3rd driving lesson.***</li>
                 </ol>
 
                 <div class='d-flex ms-5'>
@@ -136,7 +136,7 @@
 
                     <ol start='6' class='line-height-2 d-none d-md-block w-100'>
                         <li>Next lesson can be scheduled as soon as the next day, and we offer 7 days a week 7am-7pm.*</li>
-                        <li>If student is a minor the DMV 6 Hour Certificate of Completion will be issued after the completion of the 3rd driving lesson.****</li>
+                        <li>If student is a minor the DMV 6 Hour Certificate of Completion will be issued after the completion of the 3rd driving lesson.***</li>
                     </ol>
                 </div>
             </div>
@@ -156,12 +156,12 @@
                         <li>Certificate of Completion of Driver's Ed</li>
                         <li>Birth Certificate</li>
                         <li>Social Security Card</li>
-                        <li>DL44 application with yourparents or guardian signatures</li>
-                        <li>2 Fomrs of proof of address</li>
+                        <li>DL44 application with your parents or guardian signatures</li>
+                        <li>2 Forms of proof of address</li>
                     </ul>
                     <p class='mt-5'>
                         Call as soon as you receive your permit so that we can schedule your first lesson with an instructor. 
-                        The earlier you let us  know about receiving your permit, the sooner we can schedule your first 
+                        The earlier you let us know about receiving your permit, the sooner we can schedule your first 
                         behind-the-wheel appointment.
                     </p>
                     <h3 class='mt-4'>Behind-The-Wheel Instructions</h3>
@@ -171,8 +171,8 @@
                          Driving School Instructor.
                     </p>
                     <p>
-                        The cost of a single 2 hour Behind-The-Wheel lesson is $<?php echo get_theme_mod($TWO_HOUR_LESSON, $TWO_HOUR_LESSON_DEFAULT);?>. We have a discounted package of 6 hours Behind-The-Wheel lessons for 
-                        $<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS, $THREE_TWO_HOUR_LESSONS_TEENS_DEFAULT);?>. If you buy the discounted package, any refund after the first lesson will be minus $<?php echo get_theme_mod($REFUND_REDUCED_PER_LESSON, $REFUND_REDUCED_PER_LESSON_DEFAULT);?> for each 2 hour Behind-The-Wheel lesson taken.
+                        The cost of a single 2 hour Behind-The-Wheel lesson starts at $<?php echo get_theme_mod($TWO_HOUR_LESSON, $TWO_HOUR_LESSON_DEFAULT);?>. We have a discounted package of 6 hours Behind-The-Wheel lessons starting at
+                        $<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS, $THREE_TWO_HOUR_LESSONS_TEENS_DEFAULT);?>. If you buy the discounted package, any refund after the first lesson will be reduced starting at $<?php echo get_theme_mod($REFUND_REDUCED_PER_LESSON, $REFUND_REDUCED_PER_LESSON_DEFAULT);?> for each 2 hour Behind-The-Wheel lesson taken.
                     </p>
                     <p>
                         A $<?php echo get_theme_mod($ENROLLMENT_PROCESSING_FEE, $ENROLLMENT_PROCESSING_FEE_DEFAULT);?> enrollment processing fee is included in your payment. Any refunds would be $<?php echo get_theme_mod($NON_REFUNDABLE_PROCESSING_FEE, $NON_REFUNDABLE_PROCESSING_FEE_DEFAULT);?> minus enrollment-processing fee from the total amount. 
@@ -197,13 +197,13 @@
                             <li class='d-none d-md-block'><h3>Riverside</h3></li>
                             <li>5750 Division St Unit 202A</li>
                             <li>Riverside, CA 92506</li>
-                            <li class='font-weight-900'>(951)201-7780</li>
+							<li class='font-weight-900'> <a href="tel:9512017780">(951)201-7780</a></li>
                         </ul>
-                        <ul class='list-unstyled'>
+                        <ul class='list-unstyled align-self-baseline'>
                             <li class='d-none d-md-block'><h3>San Diego</h3></li>
-                            <li>5750 Division St Unit 202A</li>
-                            <li>Riverside, CA 92506</li>
-                            <li class='font-weight-900'>(951)201-7780</li>
+                            <li> 16885 W. Bernardo Dr.</li>
+                            <li>San Diego, CA 92127</li>
+							<li class='font-weight-900'><a href="tel:8586490007">(858)649-0007</a></li>
                         </ul>
                         
                     </div>

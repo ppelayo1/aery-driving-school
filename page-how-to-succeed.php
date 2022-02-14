@@ -12,7 +12,7 @@
         </div>
         <div class='mt-4'>
             <h3>Eat Before</h3>
-            <p>Easting a small meal, or a snack prior to the lesson will help you get the most out of your lessons.</p>
+            <p>Eating a small meal, or a snack prior to the lesson will help you get the most out of your lessons.</p>
         </div>
         <div class='mt-4'>
             <h3>Keep Learning</h3>

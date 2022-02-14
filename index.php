@@ -24,7 +24,6 @@
                     <ul class="width-15rem">
                         <li>Behind-The-Wheel Driving Lessons</li>
                         <li>Online Driving Ed.</li>
-                        <li>Traffic School</li>    
                     <ul>
                 </div>
 
@@ -32,7 +31,7 @@
                     <h2>Affordable Learning</h2>
                     <ul class="width-15rem">
                         <li><span class="orange-red-color font-weight-900">LIMITED TIME</span></br>6 Hour Behind-The-Wheel starting $<?php echo get_theme_mod($TWO_HOUR_LESSONS_TEENS, $GLOBALS['THREE_TWO_HOUR_LESSONS_TEENS_DEFAULT']);?> for teens</li>
-                        <li>Online Driving Lessons $<?php echo get_theme_mod($ONLINE_DRIVING_PRICE, $GLOBALS['ONLINE_DRIVING_LESSONS_DEFAULT']);?></li>
+                        <li>Online Driving Ed. $<?php echo get_theme_mod($ONLINE_DRIVING_PRICE, $GLOBALS['ONLINE_DRIVING_LESSONS_DEFAULT']);?></li>
                         <li>Rent a Qualified Car for the DMV Driving Test starting $<?php echo get_theme_mod($CAR_RENTAL, $GLOBALS['CAR_RENTAL_DEFAULT']);?></li>    
                     <ul>
                 </div>

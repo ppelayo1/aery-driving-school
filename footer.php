@@ -9,8 +9,8 @@
                         <a href=<?php echo '"' . getImportantInfoLink() . '"'; ?> class="orange-red-color d-block mt-2">Learn More</a>
                     </div>
                     <ul class="ms-5 list-unstyled">
-                        <li class='line-height-0pt5'> (951)201-7780</li>  
-                        <li class='margin-top-1pt3rem'> (951)201-7780</li>      
+						<li class='line-height-0pt5'> <a href="tel:9512017780">(951)201-7780 </a></li>  
+						<li class='margin-top-1pt3rem'> <a href="tel:8586490007">(858)649-0007</a></li>      
                     <ul>
                 </div>
             </div>
